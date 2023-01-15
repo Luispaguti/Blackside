@@ -5,14 +5,11 @@ import { navLinks } from "../constant";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
+  //para hacer el menu mobile//
   return (
     <nav className='w-full flex py-6 px-9 justify-between items-center navbar bg-black'>
-      <div className="flex justify-start" >
       <img src={logo1} alt="bank"
-        className="w-[30%]" />
-      </div>
-        
-
+        className="w-[124px] h-[32px]" />
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
@@ -22,20 +19,23 @@ const Navbar = () => {
            [16px] ${index === navLinks.length -
                 1 ? "mr-0" : "mr-10"}
           text-white`}
+          //Para tener margen right 10 en todos los elementos menos el último//
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
+          {/* me lleva al inicio de cada uno */}
 
           </li>
         ))}
       </ul>
+
+      {/* mobile */}
       <div className="sm:hidden flex flex-1 justify-end items-center">
-        <img
+      <img
           src={toggle ? close : menu}
           alt="menu"
-          className="w-[28px] h-[28px]
-            object-contain"
-          onClick={() => setToggle((prev) => !prev)} />
-
+          className="w-[28px] h-[28px] object-contain"
+          onClick={() => setToggle(!toggle)}
+        />
         <div
           className={`${toggle ? 'flex' : 'hidden'} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded xl sidebar`}
         >

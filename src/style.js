@@ -8,6 +8,7 @@ const styles = {
   flexStart: "flex justify-center items-start",
   flexBetween: "flex justify-between items-center",
   flexAround: "flex justify-around items-center",
+  flexEvenly:"flex justify-evenly",
 
   paddingX: "sm:px-16 px-6",
   paddingY: "sm:py-16 py-6",
