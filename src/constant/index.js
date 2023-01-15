@@ -8,15 +8,19 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Features",
+    title: "Equipo",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Entreno",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Instalaciones",
+  },
+  {
+    id: "clients",
+    title: "Fotos",
   },
 ];
 
@@ -74,17 +78,17 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
+    title: "Usarios",
     value: "3800+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
+    title: "burpees",
     value: "230+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
+    title: "Calorías",
     value: "$230M+",
   },
 ];
@@ -196,3 +200,6 @@ export const clients = [
     logo: dropbox,
   },
 ];
+
+ 
+ 

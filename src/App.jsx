@@ -1,23 +1,20 @@
 import styles from "./style";
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
+import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Home } from "./components";
+// import aos
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
-const App = () => (
-  <div className="bg-primary w-full overflow-hidden">
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
+const App = () => {
+
+  // aos initialization
+  Aos.init({
+    duration: 2500,
+    delay: 400,
+  });
+  return (
+    <div>
         <Navbar />
-      </div>
-    </div>
-
-    <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Hero />
-      </div>
-    </div>
-    
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Stats />
+        <Home/>
         <Business />
         <Billing />
         <CardDeal />
@@ -25,9 +22,8 @@ const App = () => (
         <Clients />
         <CTA />
         <Footer />
-      </div>
     </div>
-  </div>
-);
+)
+}
 
 export default App;

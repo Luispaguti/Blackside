@@ -34,6 +34,37 @@
   text-fill-color: transparent;
 }
 
+.text-green-gradient {
+    background: linear-gradient(
+      157.81deg,
+      #f0f3f0 -43.27%,
+      #cadcc8 -21.24%,
+      rgb(165, 180, 163) 12.19%,
+      #7c897c 29.82%,
+      #667f65 51.94%,
+      #e2e8e2 90.29%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.text-red-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #f0f3f0 -43.27%,
+    #c2b6b2 -21.24%,
+    rgb(161, 152, 148) 12.19%,
+    #918077 29.82%,
+    #7b5547 51.94%,
+    #e2e8e2 90.29%
+);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
@@ -43,6 +74,17 @@
     #7de7eb 29.82%,
     #5ce1e6 51.94%,
     #33bbcf 90.29%
+  );
+}
+.bg-green-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #f0f3f0 -43.27%,
+    #cadcc8 -21.24%,
+    #97ae95 12.19%,
+    #758674 29.82%,
+    #5a7959 51.94%,
+    #174b15 90.29%
   );
 }
 

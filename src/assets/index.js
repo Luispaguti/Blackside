@@ -6,6 +6,7 @@ import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
 import logo1 from "./logo1.png";
+import logo2 from "./logo2.jpg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
@@ -25,6 +26,7 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import prax from "./prax.jpg";
+import coach1 from "./coach1.png";
 
 export {
   airbnb,
@@ -36,6 +38,7 @@ export {
   dropbox,
   logo,
   logo1,
+  logo2,
   quotes,
   robot,
   send,
@@ -54,4 +57,5 @@ export {
   people01,
   people02,
   people03,
+  coach1,
 };

@@ -6,9 +6,12 @@ import { navLinks } from "../constant";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
   return (
-    <nav className='w-full flex py-6 justify-between items-center navbar'>
-        <img src={logo1} alt="bank"
-        className="w-[244px] h-[102px]" />
+    <nav className='w-full flex py-6 px-9 justify-between items-center navbar bg-black'>
+      <div className="flex justify-start" >
+      <img src={logo1} alt="bank"
+        className="w-[30%]" />
+      </div>
+        
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (

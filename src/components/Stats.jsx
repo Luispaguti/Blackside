@@ -1,5 +1,6 @@
 import { stats } from '../constant/index'
 import styles from '../style';
+import Coach from './Coach';
 
 const Stats = () => {
   return (
@@ -11,6 +12,9 @@ const Stats = () => {
 
         </div>
       ))}
+      <div>
+      </div>
+     
     </section>
   )
 }

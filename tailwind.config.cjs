@@ -9,6 +9,7 @@ module.exports = {
         secondary: "#00f6ff",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
+        dimGrey: "#a3a3a3"
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
@@ -17,7 +18,7 @@ module.exports = {
     screens: {
       xs: "480px",
       ss: "620px",
-      sm: "768px",
+      sm: "858px",
       md: "1060px",
       lg: "1200px",
       xl: "1700px",
