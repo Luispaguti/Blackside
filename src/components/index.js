@@ -9,10 +9,12 @@ import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Home from "./Home";
 import Coach from "./Coach";
+import About from "./About";
 
 export {
   Navbar,
   Billing,
+  About,
   CardDeal,
   Business,
   Clients,

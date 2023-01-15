@@ -27,10 +27,12 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import prax from "./prax.jpg";
 import coach1 from "./coach1.png";
+import users from "./users.svg";
 
 export {
   airbnb,
   bill,
+  users,
   prax,
   binance,
   card,

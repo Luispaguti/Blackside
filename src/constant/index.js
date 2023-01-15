@@ -1,5 +1,5 @@
 
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, users  } from "../assets";
 
 export const navLinks = [
   {
@@ -200,6 +200,18 @@ export const clients = [
     logo: dropbox,
   },
 ];
+
+export const about = {
+  icon: users,
+  title: 'Our misson',
+  subtitle1:
+    'We are distinguished by our unsurpassed motivating atmosphere, knowledgeable staff, and premier exercise equipment, which supports our members in meeting their individual fitness goals.',
+  subtitle2:
+    'The strength of our heart-felt identity is utilized to inspire every person that steps foot into our gyms to better themselves.',
+  link: 'Join Now',
+};
+  
+  
 
  
  
