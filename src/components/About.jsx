@@ -29,13 +29,11 @@ const About = () => {
            
           </div>
           {/* image */}
-          <div
-            className='w-full h-full bg-banner bg-cover bg-right lg:bg-center bg-no-repeat flex-1'
+          
+            <img  src={prax} alt="prax" className='w-full h-full bg-banner bg-cover bg-right lg:bg-center bg-no-repeat flex-1'
             data-aos='fade-right'
-            data-aos-delay='900'
-          >
-            <img src={prax} alt="prax" className='w-[90%]' />
-          </div>
+            data-aos-delay='900' />
+          
         </div>
       </div>
     </section>
