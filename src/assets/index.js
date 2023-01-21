@@ -28,10 +28,30 @@ import people03 from "./people03.png";
 import prax from "./prax.jpg";
 import coach1 from "./coach1.png";
 import users from "./users.svg";
+import calendar from "./calendar.svg";
+import battle from "./battle.png";
+import body from "./body.png";
+import boxing from "./boxing.png";
+import fitness from "./fitness.png";
+import full from "./full.png";
+import resistance from "./resistance.png";
+import yoga from "./yoga.png";
+import left from "./left.svg";
+
+
 
 export {
   airbnb,
+  full,
+  resistance,
+  yoga,
+  left,
+  boxing,
+  fitness,
   bill,
+  body,
+  calendar,
+  battle,
   users,
   prax,
   binance,
