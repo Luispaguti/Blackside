@@ -24,6 +24,9 @@ const WorkoutSlide = () => {
       1024: {
         slidesPerView: 4,
       },
+      1724: {
+        slidesPerView: 5,
+      },
     }}
     modules={[Navigation]}
     className='workoutSlider'>
@@ -31,7 +34,7 @@ const WorkoutSlide = () => {
         const { image, name} = program
         return (
         <SwiperSlide 
-        className='max-w-[320px] max-h-[320px] relative'
+        className='max-w-[420px] max-h-[420px] relative'
         key={index}>
           <img className='w-full h-full object-cover' src={image} alt='image'/>
           <div className='absolute left-[20px] bottom-[20px]
