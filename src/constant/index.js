@@ -1,5 +1,5 @@
 
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, users  } from "../assets";
+import { people01, people02,box,calendar, press, strong, wood1, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, users  } from "../assets";
 
 export const navLinks = [
   {
@@ -210,7 +210,41 @@ export const about = {
     'The strength of our heart-felt identity is utilized to inspire every person that steps foot into our gyms to better themselves.',
   link: 'Join Now',
 };
-  
+
+export const work = {
+  // icon: calendar,
+  title: 'Training programs',
+  programs: [
+    {
+      image: box,
+      name: 'Resistance',
+    },
+    {
+      image: press,
+      name: 'Boxing',
+    },
+    {
+      image: strong,
+      name: 'Body Pump',
+    },
+    {
+      image: wood1,
+      name: 'Yoga',
+    },
+    {
+      image: wood1,
+      name: 'Full Body',
+    },
+    {
+      image: wood1,
+      name: 'Fitness',
+    },
+    {
+      image: wood1,
+      name: 'Battle Rope',
+    },
+  ],
+};
   
 
  

@@ -37,12 +37,20 @@ import full from "./full.png";
 import resistance from "./resistance.png";
 import yoga from "./yoga.png";
 import left from "./left.svg";
+import box from "./box.png";
+import press from "./press.png";
+import strong from "./strong.png";
+import wood1 from "./wood1.png";
 
 
 
 export {
   airbnb,
+  press,
+  wood1,
   full,
+  strong,
+  box,
   resistance,
   yoga,
   left,

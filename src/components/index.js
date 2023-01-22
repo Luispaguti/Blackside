@@ -12,12 +12,15 @@ import Coach from "./Coach";
 import About from "./About";
 import Carousel from "./Carousel";
 import Workouts from "./Workouts";
+import WorkoutSlide from "./WorkoutSlide";
+
 
 
 
 export {
   Navbar,
   Workouts,
+  WorkoutSlide,
   Billing,
   About,
   CardDeal,
