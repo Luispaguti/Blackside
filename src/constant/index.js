@@ -1,5 +1,5 @@
 
-import { people01, people02,box,calendar, press, strong, wood1, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, users  } from "../assets";
+import { people01, people02,box,calendar, press, strong, wood1, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, users , price  } from "../assets";
 
 export const navLinks = [
   {
@@ -242,6 +242,46 @@ export const work = {
     {
       image: wood1,
       name: 'Battle Rope',
+    },
+  ],
+};
+
+export const pricing = {
+  icon: price,
+  title: 'Pricing plan',
+  plans: [
+    {
+      name: 'Basic',
+      price: '20',
+      list: [
+        { name: 'unlimited gym access' },
+        { name: '1 training programs' },
+        { name: 'free fitness consultation' },
+      ],
+      delay: 600,
+    },
+    {
+      name: 'Premium',
+      price: '35',
+      list: [
+        { name: 'unlimited gym access' },
+        { name: '5 training programs' },
+        { name: 'free fitness consultation' },
+        { name: 'personal trainer' },
+      ],
+      delay: 800,
+    },
+    {
+      name: 'Elite',
+      price: '49',
+      list: [
+        { name: 'unlimited gym access' },
+        { name: 'all training programs' },
+        { name: 'free fitness consultation' },
+        { name: 'personal trainer' },
+        { name: '50% off drinks' },
+      ],
+      delay: 1000,
     },
   ],
 };

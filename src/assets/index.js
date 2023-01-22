@@ -41,6 +41,7 @@ import box from "./box.png";
 import press from "./press.png";
 import strong from "./strong.png";
 import wood1 from "./wood1.png";
+import price from "./price.svg";
 
 
 
@@ -57,6 +58,7 @@ export {
   boxing,
   fitness,
   bill,
+  price,
   body,
   calendar,
   battle,

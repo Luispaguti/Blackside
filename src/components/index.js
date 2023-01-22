@@ -13,6 +13,9 @@ import About from "./About";
 import Carousel from "./Carousel";
 import Workouts from "./Workouts";
 import WorkoutSlide from "./WorkoutSlide";
+import Pricing from "./Pricing";
+import PlanList from "./PlanList";
+
 
 
 
@@ -23,6 +26,8 @@ export {
   WorkoutSlide,
   Billing,
   About,
+  Pricing,
+  PlanList,
   CardDeal,
   Carousel,
   Business,
