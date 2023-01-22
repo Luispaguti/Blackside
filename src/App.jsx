@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Billing,Coach, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Home, About, Carousel } from "./components";
+import { Billing,Coach, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Home, About, Carousel, Workouts } from "./components";
 // import aos
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -18,6 +18,7 @@ const App = () => {
         <Coach />
         <Carousel/>
         <About/>
+        <Workouts/>
         <Billing />
         <CardDeal />
         <Clients />

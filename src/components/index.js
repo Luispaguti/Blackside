@@ -10,10 +10,14 @@ import Testimonials from "./Testimonials";
 import Home from "./Home";
 import Coach from "./Coach";
 import About from "./About";
-import Carousel from "./Carousel"
+import Carousel from "./Carousel";
+import Workouts from "./Workouts";
+
+
 
 export {
   Navbar,
+  Workouts,
   Billing,
   About,
   CardDeal,
