@@ -1,5 +1,5 @@
 
-import { people01, people02,box,calendar, press, strong, wood1, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, users , price  } from "../assets";
+import { people01,Icncommunity,CommunityImg1, CommunityImg2,CommunityImg3,CommunityImg4, people02,box,calendar, press, strong, wood1, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, users , price  } from "../assets";
 
 export const navLinks = [
   {
@@ -287,5 +287,34 @@ export const pricing = {
 };
   
 
- 
+export const community = {
+  icon: Icncommunity,
+  title: 'Community',
+  testimonials: [
+    {
+      image: CommunityImg2,
+      name: 'Mark A.',
+      message:
+        '“Great location, great price and great, helpful people. What to want more?”',
+    },
+    {
+      image: CommunityImg1,
+      name: 'Lauren K.',
+      message:
+        '“Gymme changed my life. Not only physically but mentally as well. I’m a better mother, and all around better human being because of this gym.”',
+    },
+    {
+      image: CommunityImg3,
+      name: 'Jhon D.',
+      message:
+        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+    },
+    {
+      image: CommunityImg4,
+      name: 'Anne R.',
+      message:
+        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+    },
+  ],
+};
  

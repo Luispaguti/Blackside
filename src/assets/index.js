@@ -42,6 +42,11 @@ import press from "./press.png";
 import strong from "./strong.png";
 import wood1 from "./wood1.png";
 import price from "./price.svg";
+import Icncommunity from "./Icncommunity.svg";
+import CommunityImg1 from "./CommunityImg1.jpg";
+import CommunityImg2 from "./CommunityImg2.jpg";
+import CommunityImg3 from "./CommunityImg3.jpg";
+import CommunityImg4 from "./CommunityImg4.jpg";
 
 
 
@@ -50,6 +55,11 @@ export {
   press,
   wood1,
   full,
+  Icncommunity,
+  CommunityImg1,
+  CommunityImg2,
+  CommunityImg3,
+  CommunityImg4, 
   strong,
   box,
   resistance,

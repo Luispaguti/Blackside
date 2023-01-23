@@ -15,6 +15,10 @@ import Workouts from "./Workouts";
 import WorkoutSlide from "./WorkoutSlide";
 import Pricing from "./Pricing";
 import PlanList from "./PlanList";
+import Community from "./Community";
+import CommunitySlider from "./CommunitySlider";
+
+
 
 
 
@@ -24,6 +28,8 @@ export {
   Navbar,
   Workouts,
   WorkoutSlide,
+  Community,
+  CommunitySlider,
   Billing,
   About,
   Pricing,
