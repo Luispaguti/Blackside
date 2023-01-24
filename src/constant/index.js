@@ -1,5 +1,5 @@
 
-import { people01,Icncommunity,CommunityImg1, CommunityImg2,CommunityImg3,CommunityImg4, people02,box,calendar, press, strong, wood1, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, users , price  } from "../assets";
+import { people01,Icncommunity,CommunityImg1, question, CommunityImg2,CommunityImg3,CommunityImg4, people02,box,calendar, press, strong, wood1, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, users , price  } from "../assets";
 
 export const navLinks = [
   {
@@ -318,3 +318,39 @@ export const community = {
   ],
 };
  
+export const faq = {
+  icon: question,
+  title: 'FAQ',
+  accordions: [
+    {
+      question: 'How can I book a workout class?',
+      answer:
+        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+    },
+    {
+      question: 'Can I pay by cash for my membership?',
+      answer:
+        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+    },
+    {
+      question: 'What age do I need to be to join?',
+      answer:
+        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+    },
+    {
+      question: 'Are there any lockers?',
+      answer:
+        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+    },
+    {
+      question: 'How do I cancel my membership?',
+      answer:
+        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+    },
+    {
+      question: 'Is there water available at the gym?',
+      answer:
+        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+    },
+  ],
+};

@@ -47,6 +47,8 @@ import CommunityImg1 from "./CommunityImg1.jpg";
 import CommunityImg2 from "./CommunityImg2.jpg";
 import CommunityImg3 from "./CommunityImg3.jpg";
 import CommunityImg4 from "./CommunityImg4.jpg";
+import question from "./question.svg";
+import bg from "./bg.svg";
 
 
 
@@ -74,6 +76,8 @@ export {
   battle,
   users,
   prax,
+  question,
+  bg,
   binance,
   card,
   coinbase,

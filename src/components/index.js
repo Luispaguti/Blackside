@@ -17,6 +17,8 @@ import Pricing from "./Pricing";
 import PlanList from "./PlanList";
 import Community from "./Community";
 import CommunitySlider from "./CommunitySlider";
+import Faq from "./Faq";
+import Accordion from "./Accordion";
 
 
 
@@ -30,10 +32,12 @@ export {
   WorkoutSlide,
   Community,
   CommunitySlider,
+  Faq,
   Billing,
   About,
   Pricing,
   PlanList,
+  Accordion,
   CardDeal,
   Carousel,
   Business,
