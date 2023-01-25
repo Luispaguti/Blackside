@@ -1,6 +1,4 @@
 import Navbar from "./Navbar";
-import Billing from "./Billing";
-import CardDeal from "./CardDeal";
 import Business from "./Coach";
 import Clients from "./Clients";
 import CTA from "./CTA";
@@ -34,13 +32,11 @@ export {
   Community,
   CommunitySlider,
   Faq,
-  Billing,
   About,
   Pricing,
   PlanList,
   Accordion,
   Join,
-  CardDeal,
   Carousel,
   Business,
   Clients,
