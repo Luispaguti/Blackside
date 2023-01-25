@@ -1,5 +1,5 @@
 
-import { people01,Icncommunity,CommunityImg1, question, CommunityImg2,CommunityImg3,CommunityImg4, people02,box,calendar, press, strong, wood1, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, users , price  } from "../assets";
+import { people01,Icncommunity,CommunityImg1, question, CommunityImg2,CommunityImg3,CommunityImg4, people02,box,calendar, press, strong, wood1, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, users , price , woman  } from "../assets";
 
 export const navLinks = [
   {
@@ -353,4 +353,12 @@ export const faq = {
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
     },
   ],
+};
+
+export const join = {
+  image: woman,
+  title: 'Wanna join & have fun?',
+  subtitle:
+    'We’ll keep you updated on the things you need to know about Gymme. Nothing more, nothing less.',
+  btnText: 'Join now',
 };

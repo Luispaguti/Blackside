@@ -19,6 +19,7 @@ import Community from "./Community";
 import CommunitySlider from "./CommunitySlider";
 import Faq from "./Faq";
 import Accordion from "./Accordion";
+import Join from "./Join";
 
 
 
@@ -38,6 +39,7 @@ export {
   Pricing,
   PlanList,
   Accordion,
+  Join,
   CardDeal,
   Carousel,
   Business,

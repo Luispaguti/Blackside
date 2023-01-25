@@ -16,7 +16,11 @@ const Faq = () => {
       lg:h-[1160px] lg:pt-6'>
         {/* section title */}
         <div className='flex items-center justify-center -space-x-20 mb-[50px] lg:mb-[80px]
-        justify-start lg:justify-center -space-x-4 lg:max-w-[540px] mx-auto px-4 lg:px-0'>
+        justify-start lg:justify-center -space-x-4 lg:max-w-[540px] mx-auto px-4 lg:px-0
+        '
+        data-aos='fade-up'
+          data-aos-offset='200'
+          data-aos-delay='200'>
           <img className='lg:hidden' src={icon} alt="icon" />
           <h2 className='text-[32px] leading-[40px] lg:text-[50px] lg:leading-[50px] font-extrabold
           flex -space-x-4 lg:mt-[100px]
@@ -24,7 +28,10 @@ const Faq = () => {
           </h2>
         </div>
          {/* accordion list */}
-         <div>
+         <div className='flex flex-col gap-y-4 px-4'
+         data-aos='fade-up'
+         data-aos-offset='200'
+         data-aos-delay='200'>
           {accordions.map((accordion, idx) => {
             return <Accordion accordion={accordion} 
             key={idx}/>

@@ -49,6 +49,7 @@ import CommunityImg3 from "./CommunityImg3.jpg";
 import CommunityImg4 from "./CommunityImg4.jpg";
 import question from "./question.svg";
 import bg from "./bg.svg";
+import woman from "./woman.png";
 
 
 
@@ -78,6 +79,7 @@ export {
   prax,
   question,
   bg,
+  woman,
   binance,
   card,
   coinbase,
