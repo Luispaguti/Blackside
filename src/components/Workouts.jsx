@@ -12,7 +12,7 @@ export const Workouts = () => {
         // data-aos-deLay="200"
         >
           <img src={calendar} alt="calendar" />
-          <h2 className='font-primary text-neutral-500 text-[32px]
+          <h2 className='font-primary text-black text-[32px]
            leading-[40px] lg:text-[50px] lg:leading-[50px] font-extrabold flex -space-x-4'>
              Training programs <span className='text-[#7DE7EB]'>.</span>
              </h2>

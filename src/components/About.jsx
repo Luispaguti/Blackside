@@ -7,7 +7,7 @@ import { prax } from '../assets/index';
 const About = () => {
 
   return (
-    <section className='h-[790px] bg-black'>
+    <section className='h-[790px] bg-black mb-[80px] md:mb-[110px] lg:mb-[180px]'>
       <div className='container mx-auto h-full'>
         <div className='flex items-center h-full relative -space-x-48 lg:-space-x-24'>
           <div className='text-black flex-auto  pl-6 lg:pl-0 z-10 md:z-0 bg-slate-200'>
