@@ -1,7 +1,5 @@
 import React from 'react'
-import styles from '../style';
-import { discount, logo1, prax, robot, logo2 } from '../assets'
-import GetStarted from './GetStarted'
+import { logo2 } from '../assets'
 
 function Home() {
   return (
@@ -13,8 +11,8 @@ function Home() {
             data-aos-delay='300' />
         <div className='flex items-center justify-center'>
           <h3 className='font-primary text-[#7DE7EB] text-[32px]
-           leading-[40px] lg:text-[50px] lg:leading-[50px] font-extrabold flex -space-x-4' data-aos='fade-up'
-            data-aos-delay='600' >
+           leading-[40px] lg:text-[50px] lg:leading-[50px] font-extrabold flex -space-x-4' 
+           >
             Bienvenido
           </h3>
         </div>

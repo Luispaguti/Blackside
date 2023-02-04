@@ -7,9 +7,9 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false)
   //para hacer el menu mobile//
   return (
-    <nav className='w-full flex py-6 px-9 justify-between items-center navbar bg-black'>
+    <nav className='w-full flex py-7 px-9 justify-between items-center navbar bg-black'>
       <img src={logo1} alt="bank"
-        className="w-[100px] h-[42px]" />
+        className="w-[120px] h-[44px] lg:w-[140px] lg:h-[54px]" />
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li

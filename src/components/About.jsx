@@ -10,7 +10,7 @@ const About = () => {
     <section className='h-[790px] bg-black mb-[80px] md:mb-[110px] lg:mb-[180px]'>
       <div className='container mx-auto h-full'>
         <div className='flex items-center h-full relative -space-x-48 lg:-space-x-24'>
-          <div className='text-black flex-auto  pl-6 lg:pl-0 z-10 md:z-0 bg-slate-200'>
+          <div className='text-black flex-auto rounded  pl-6 lg:pl-0 z-10 md:z-0 bg-slate-200'>
             <h1
               className='font-poppins font-semibold text-[60px] leading-[52px] text-black mb-8 ml-11 mt-8'
               data-aos='fade-down'
@@ -30,7 +30,7 @@ const About = () => {
           </div>
           {/* image */}
           
-            <img  src={prax} alt="prax" className='w-full h-full pr-11  bg-banner bg-cover bg-right lg:bg-center bg-no-repeat flex-1 max-sm:max-h-[600px]'
+            <img  src={prax} alt="prax" className='w-full h-full pr-11  bg-banner bg-cover bg-right lg:bg-center bg-no-repeat flex-1 max-sm:max-h-[600px] rounded'
             data-aos='fade-right'
             data-aos-delay='900' />
           
