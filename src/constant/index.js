@@ -52,25 +52,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "La actividad física es una necesidad básica en mi vida. Rendir en mis entrenamientos y en mi trabajo aumenta mi seguridad y confianza.",
+    name: "Alejandro Práxedes",
+    title: "Founder & Coach",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "Mi objetivo es mantenerme en forma y saludable para disfrutar el máximo tiempo posible con mi familia. ¿Cual es tu objetivo?",
+    name: "Maria Gavilán",
+    title: "Coach",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
       "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    name: "Joaquin Doctor",
+    title: "Founder Karasu BJJ",
     img: people03,
   },
 ];
@@ -289,7 +289,7 @@ export const pricing = {
 
 export const community = {
   icon: Icncommunity,
-  title: 'Community',
+  title: 'Comunidad',
   testimonials: [
     {
       image: CommunityImg2,

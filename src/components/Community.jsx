@@ -8,7 +8,7 @@ const Community = () => {
   // destructure community data
   const { icon, title, testimonials } = community;
   return (
-    <section className='relative pb-[80px] md:pb-[110px] lg:pb-[180px] '>
+    <section className='relative  pb-[80px] md:pb-[500px] sm:pb-[500px]  lg:pb-[377px] lg:pt-[150px]  '>
       <div className='container mx-auto'>
         <div className='flex'>
           {/* section title */}
@@ -16,13 +16,13 @@ const Community = () => {
             <img src={icon} alt="icon" />
             <h2 
             className=' 
-            text-[32px] leading-[40px] lg:text-[50px] lg:leading-[50px] font-extrabold flex -space-x-4'>
+            text-[32px] leading-[40px] lg:text-[50px] lg:leading-[50px] font-ppopins flex -space-x-4'>
               {title} <span >.</span>
             </h2>
           </div>
           {/* slider */}
           <div
-          className='absolute -right-[375px] lg:-right-[0px] w-[1140px] top-48 lg:top-0'>
+          className='absolute -right-[375px] lg:-right-[0px] w-[1140px] top-48 '>
              <CommunitySlider testimonials={testimonials} />
           </div>
         </div>

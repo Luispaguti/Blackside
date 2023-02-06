@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BsChevronCompactLeft,BsChevronCompactRight } from 'react-icons/bs';
-import { RxDotFilled } from 'react-icons/rx'
+import { RxDotFilled, RxDot } from 'react-icons/rx'
 
 const Carousel = () => {
   const slides = [
@@ -41,7 +41,7 @@ const Carousel = () => {
   }
 
   return (
-    <section id='fotos'>
+    <section id='fotos' className='bg-black'>
  <div className='max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group max-sm:max-h-[400px] '>
  {/* <div style={{ backgroundImage: `url(${slides[currentIndex].url})` }} className='w-full h-full rounded-2xl bg-center bg-cover duration-500 '></div> */}
  {/* Left Arrow*/}
@@ -56,8 +56,8 @@ const Carousel = () => {
 <div className='flex top-4 justify-center py-2'>
     {slides.map((slide,slideIndex) => (
       <div key={slideIndex} onClick={() => goToSlide(slideIndex)} 
-      className='text-2xl cursor-pointer'>
-        <RxDotFilled />
+      className='text-2xl cursor-pointer '>
+        <RxDot color='white' />
       </div>
     ))}
 </div>

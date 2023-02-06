@@ -15,12 +15,12 @@ const App = () => {
     <div>
         <Navbar />
         <Home/>
-        <Coach />
         <Carousel/>
-        <About/>
         <Workouts/>
-        <Pricing/>
+        <Coach />
         <Community/>
+        <About/>
+        <Pricing/>
         <Faq/>
         <Join/>
         <Clients />

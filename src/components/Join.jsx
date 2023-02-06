@@ -7,7 +7,7 @@ const Join = () => {
   // destructure join data
   const { image, title, subtitle, btnText } = join;
   return (
-    <section className='bg-white min-h-[537px]'>
+    <section className='bg-white min-h-[537px] lg:pt-[180px]'>
       <div className='container mx-auto'>
         {/* image & text wrapper */}
         <div className='flex flex-col md:flex-row md:items-center md:-space-x-12 -space-y-24 lg:-space-y-0'>
