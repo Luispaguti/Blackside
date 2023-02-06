@@ -5,7 +5,7 @@ import PlanList from './PlanList';
 
 const Pricing = () => {
   // destructure pricing data
-  const { icon, title, plans } = pricing;
+  const { icon, title, number, plans ,pay } = pricing;
   return (
     <section className='md:pb-[110px] lg:pb-[180px] lg:mt-[80px]'>
       <div className=' flex items-center justify-center -space-x-20 mb-[50px]
@@ -17,8 +17,10 @@ const Pricing = () => {
         <h2 className='text-[32px] leading-[40px] lg:text-[50px] lg:leading-[50px] font-poppins'>
           {title} <span className='text-[#7DE7EB]'>.</span>
           </h2>
+          <h3>{number}</h3>
       </div>
       <PlanList plans={plans}/>
+      <p>{pay}</p>
     </section>
   )
 }

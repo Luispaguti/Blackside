@@ -11,7 +11,7 @@ const PlanList = ({ plans }) => {
      justify-center max-w-[1280px] mx-auto gap-y-4' >
       {plans.map((plan, currentIndex) => {
         //destructure plan
-        const { name, price, list, delay } = plan;
+        const { name, price, list, number, delay, pay } = plan;
 
         return (
           <div
@@ -44,22 +44,28 @@ const PlanList = ({ plans }) => {
                     <span className='tracking-[0.1px]'>{price}</span>
                     <span className='text-[30px] font-extrabold'>$</span>
                   </div>
-                  <span className='text-sm font-medium'>/month</span>
+                  <span className='text-sm font-medium'>/mes</span>
                 </div>
               </div>
               {/* list & btn wrapper */}
               <div>
                 {/* list */}
                 <ul className='flex flex-col gap-y-4 mb-8'>
+                <span className='text-md font-medium'>{number}</span>
                   {list.map((item,index)=> {
                     return (
                     <li className='flex items-center gap-x-[10px]' key={index}>
                       <BsCheckCircleFill className='text-lg'/>
+                      <div>{item.number}</div>
                       <div>{item.name}</div>
+                      <div>{item.pay}</div>
+                      
                       </li>
                       );
                   })}
+                  <span className='text-md font-medium'>{pay}</span>
                 </ul>
+                
                 {/*btn */}
                 <button
                     className={`${

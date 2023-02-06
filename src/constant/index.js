@@ -252,37 +252,73 @@ export const pricing = {
   plans: [
     {
       name: 'Basic',
-      price: '20',
+      price: '70',
+      number:'9 clases al mes a elegir entre: ',
       list: [
-        { name: 'unlimited gym access' },
-        { name: '1 training programs' },
-        { name: 'free fitness consultation' },
+        { name: 'Fuerza y acondicionamiento anaeróbico, ' },
+        { name: 'Halterofilia,' },
+        { name: 'Tecnificación de halterofilia,' },
+        { name: 'Tecnificación de gimnásticos,' },
+        { name: 'Acondicionamiento aeróbico, ' },
+        { name: 'Acondicionamiento de fuerza,' }
       ],
+      price: '70',
       delay: 600,
     },
     {
-      name: 'Premium',
-      price: '35',
+      name: 'Medio',
+      price: '80',
+      number:'14 clases al mes a elegir entre: ',
       list: [
-        { name: 'unlimited gym access' },
-        { name: '5 training programs' },
-        { name: 'free fitness consultation' },
-        { name: 'personal trainer' },
+        { name: 'Fuerza y acondicionamiento anaeróbico, ' },
+        { name: 'Halterofilia,' },
+        { name: 'Tecnificación de halterofilia,' },
+        { name: 'Tecnificación de gimnásticos,' },
+        { name: 'Acondicionamiento aeróbico, ' },
+        { name: 'Acondicionamiento de fuerza,' }
       ],
       delay: 800,
     },
     {
-      name: 'Elite',
-      price: '49',
+      name: 'Avanzado',
+      price: '85',
+      number:'26 clases al mes a elegir entre: ',
       list: [
-        { name: 'unlimited gym access' },
-        { name: 'all training programs' },
-        { name: 'free fitness consultation' },
-        { name: 'personal trainer' },
-        { name: '50% off drinks' },
+        { name: 'Fuerza y acondicionamiento anaeróbico, ' },
+        { name: 'Halterofilia,' },
+        { name: 'Tecnificación de halterofilia,' },
+        { name: 'Tecnificación de gimnásticos,' },
+        { name: 'Acondicionamiento aeróbico, ' },
+        { name: 'Acondicionamiento de fuerza,' }
       ],
+      pay:'Formas de pago: 85 € mes / 240 € trimestre / 460 € semestre .',
       delay: 1000,
     },
+    {
+      name: 'ExtraAvanzado',
+      price: '95',
+      number:'48 clases al mes a elegir entre: ',
+      list: [
+        { name: 'Fuerza y acondicionamiento anaeróbico, ' },
+        { name: 'Halterofilia,' },
+        { name: 'Tecnificación de halterofilia,' },
+        { name: 'Tecnificación de gimnásticos,' },
+        { name: 'Acondicionamiento aeróbico, ' },
+        { name: 'Acondicionamiento de fuerza,' }
+      ],
+      pay:'Formas de pago: 95 € mes / 270 € trimestre / 540 € semestre .',
+      delay: 1200,
+    },
+    {
+      name: 'Functional',
+      price: '60',
+      number:'De lunes a viernes: ',
+      list: [
+        { name: 'Clases de entrenamiento funcional, ' },
+      ],
+      delay: 1300,
+    },
+    
   ],
 };
   
@@ -323,34 +359,59 @@ export const faq = {
   title: 'FAQ',
   accordions: [
     {
-      question: 'How can I book a workout class?',
+      question: '¿Puedo probar antes?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'Si no eres alumno y no nos conoces, tienes la posibilidad de realizar una prueba gratuita antes de apuntarte. Para realizar una segunda prueba, debes de abonar la clase por adelantado (15€) la cual te será descontada del importe que abones en la inmediata suscripción de alta, así como de tus créditos de clases de ese mes en curso.'
     },
     {
-      question: 'Can I pay by cash for my membership?',
+      question: '¿Tengo la edad adecuada?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'No es necesario edad mínima y tampoco hay un límite máximo. Adaptaremos el entrenamiento a tu necesidad para que le saques el máximo partido. Si eres menor,necesitaremos hablar con tus representantes legales y tener la respectiva autorización firmada.',
     },
     {
-      question: 'What age do I need to be to join?',
+      question: '¿Tengo que estar en forma para unirme a BlackSide?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'No, nuestro sistema de entrenamiento es la herramienta más eficaz para estar enforma. Cuéntanos tus objetivos y te ayudamos a conseguirlos.',
     },
     {
-      question: 'Are there any lockers?',
+      question: '¿Cuando se activa mi suscripción?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'En el caso de las suscripciones mensuales se activan de día 1 a día 30-31. No se activan suscripciones de día 15 a 15 de mes siguiente. En caso de empezar a mitad de mes,puedes contratar una semana hasta completar el mes.',
     },
     {
-      question: 'How do I cancel my membership?',
+      question: '¿Cuando pago mi suscripción?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'La última semana del mes en curso, antes del inicio del nuevo mes. Pero tranquilo,nosotros te avisamos por la aplicación para que no se te olvide.',
     },
     {
-      question: 'Is there water available at the gym?',
+      question: '¿Puedo empezar a mitad de mes?',
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        'Puedes completar el mes contratando semanas y activar una suscripción mensual cuando empiece el nuevo mes.',
+    },
+    {
+      question: '¿Como me doy de baja?',
+      answer:
+        'Si realizas el pago en el centro avísanos con 2 semanas de antelación para darte de baja. Si, además realizas el pago por la APP, debes cancelar la tarjeta de tu perfil para que no te realicen el cargo en tu tarjeta. Si la baja no es definitiva, activa tu cuota de mantenimiento para no perder tus beneficios como alumnos (matrícula, bonificaciones, etc.).',
+    },
+    {
+      question: '¿Como ahorro en mi suscripción?',
+      answer:
+        'Infórmate de los descuentos contratando trimestres, semestres, bonificaciones en matrícula cuando vienes acompañado, bonificaciones a FCSE, FAS, SAS, BOMBEROS y estudiantes UCO.',
+    },
+    {
+      question: '¿Disponeis de agua?',
+      answer:
+        'Tenemos una pequeña tienda donde podrás comprar desde agua hasta bebidas energéticas y con carbohidratos para tu entrenamiento, así como suplementación y ropa.',
+    },
+    {
+      question: '¿Puedo ducharme allí?',
+      answer:
+        'Si, tenemos duchas y agua caliente para que puedas asearte después de tus entrenamientos.',
+    },
+    {
+      question: '¿Dónde puedo dejar mis cosas?',
+      answer:
+        'Disponemos de taquillas para que guardes tus cosas durante tu sesión de entrenamiento.',
     },
   ],
 };
