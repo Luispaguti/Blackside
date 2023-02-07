@@ -11,7 +11,7 @@ const PlanList = ({ plans }) => {
      justify-center max-w-[1280px] mx-auto gap-y-4' >
       {plans.map((plan, currentIndex) => {
         //destructure plan
-        const { name, price, list, number, delay, pay } = plan;
+        const { name, price, list, number, delay, pay, dolar, mes } = plan;
 
         return (
           <div
@@ -42,9 +42,9 @@ const PlanList = ({ plans }) => {
                 <div className='text-[40px] lg:text-[50px] font-primary font-extrabold text-center flex flex-col items-center justify-center'>
                   <div className='leading-none'>
                     <span className='tracking-[0.1px]'>{price}</span>
-                    <span className='text-[30px] font-extrabold'>$</span>
+                    <span className='text-[30px] font-extrabold'>{dolar}</span>
                   </div>
-                  <span className='text-sm font-medium'>/mes</span>
+                  <span className='text-sm font-medium'>{mes}</span>
                 </div>
               </div>
               {/* list & btn wrapper */}

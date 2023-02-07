@@ -21,7 +21,7 @@ const Pricing = () => {
           <h3>{number}</h3>
       </div>
       <PlanList plans={plans}/>
-      <div className='bg-[#575a5a]'>
+      <div className='bg-[#575a5a] mt-4'>
       <PlanList plans={plans2}/>
       </div>
       <PlanList1 plans={plans3}/>

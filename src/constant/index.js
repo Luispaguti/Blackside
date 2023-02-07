@@ -253,6 +253,8 @@ export const pricing = {
     {
       name: 'Functional',
       price: '60',
+      dolar: '$',
+      mes:'/mes',
       number:'De lunes a viernes: ',
       list: [
         { name: 'Clases de entrenamiento funcional, ' },
@@ -262,6 +264,8 @@ export const pricing = {
     {
       name: 'Basic',
       price: '70',
+      dolar: '$',
+      mes:'/mes',
       number:'9 clases al mes a elegir entre: ',
       list: [
         { name: 'Fuerza y acondicionamiento anaeróbico, ' },
@@ -277,6 +281,8 @@ export const pricing = {
     {
       name: 'Medio',
       price: '80',
+      dolar: '$',
+      mes:'/mes',
       number:'14 clases al mes a elegir entre: ',
       list: [
         { name: 'Fuerza y acondicionamiento anaeróbico, ' },
@@ -296,6 +302,8 @@ export const pricing = {
     {
       name: 'Avanzado',
       price: '85',
+      dolar: '$',
+      mes:'/mes',
       number:'26 clases al mes a elegir entre: ',
       list: [
         { name: 'Fuerza y acondicionamiento anaeróbico, ' },
@@ -311,6 +319,8 @@ export const pricing = {
     {
       name: 'ExtraAvanzado',
       price: '95',
+      dolar: '$',
+      mes:'/mes',
       number:'48 clases al mes a elegir entre: ',
       list: [
         { name: 'Fuerza y acondicionamiento anaeróbico, ' },
@@ -324,8 +334,7 @@ export const pricing = {
       delay: 1200,
     },
     {
-      name: 'Otros',
-      price: '0',
+      price: 'Otros',
       list: [
         { name: 'Matricula 50 €' },
         { name: 'Cuota mantenimiento 40 € / mes' },
@@ -343,50 +352,41 @@ export const pricing = {
   ],
   plans3: [
     {
-      name: 'Avanzado',
-      price: 'Ffcc',
-      number:'26 clases al mes a elegir entre: ',
+      type: 'Bonificación',
+      name: 'FFCCSE, FAS, SAS y BOMBEROS',
+      number:'Para aquellos a los que se les debería exigir estar en buena forma física como consecuencia de la profesión que realizan, hemos definido la siguiente propuesta de bonificación:',
       list: [
-        { name: 'Fuerza y acondicionamiento anaeróbico, ' },
-        { name: 'Halterofilia,' },
-        { name: 'Tecnificación de halterofilia,' },
-        { name: 'Tecnificación de gimnásticos,' },
-        { name: 'Acondicionamiento aeróbico, ' },
-        { name: 'Acondicionamiento de fuerza,' }
+        { name: 'Bonificación del 75% en la primera matrícula ' },
+        { name: 'Bonificación del 5% en tu suscripción mensual ' },
+        { name: 'Bonificación extra del 5% si traes a un compañero (cuántos más traigas mayor bonificación).' },
       ],
-      pay:'Formas de pago: 85 € mes / 240 € trimestre / 460 € semestre .',
+      pay:'*No acumulable a otras promociones (pagos trimestrales/semestrales/promociones puntuales). En la segunda matrícula paga el 100%.',
+      pay2:'*Solo domiciliado',
       delay: 1000,
     },
     {
-      name: 'ExtraAvanzado',
-      price: '95',
-      number:'48 clases al mes a elegir entre: ',
+      type: 'Bonificación',
+      name: 'SUSCRIPCION PARA FAMILIAS',
+      number:'Una suscripción única, compartida para toda la familia, donde tendréis acceso a un total de usos que distribuiréis como mejor os convenga. No podréis asistir al centro de manera simultánea, pero eso no supone ningún problema puesto que alguien debe quedarse con los peques. Las opciones que tendréis disponibles son las siguientes:',
       list: [
-        { name: 'Fuerza y acondicionamiento anaeróbico, ' },
-        { name: 'Halterofilia,' },
-        { name: 'Tecnificación de halterofilia,' },
-        { name: 'Tecnificación de gimnásticos,' },
-        { name: 'Acondicionamiento aeróbico, ' },
-        { name: 'Acondicionamiento de fuerza,' }
+        { name: 'Bonificación del 50% en la matrícula.' },
+        { name: 'Suscripción BSFB: 20 usos compartidos por 130€ al mes.' },
+        { name: 'BSFM: 28 usos compartidos por 150€ al mes.' },
+        { name: 'BSFA: 38 usos compartidos por 160€ al mes.' },
       ],
-      pay:'Formas de pago: 95 € mes / 270 € trimestre / 540 € semestre .',
-      delay: 1200,
+      pay:'De este modo, además del ahorro, podréis compartir los usos para que el mes que uno no pueda o quiera venir tanto pueda aprovecharlo el otro.',
+      pay2:'*Solo domiciliado',
+      delay: 1000,
     },
     {
-      name: 'Otros',
-      price: '0',
+      name: 'ESTUDIANTES',
+      type: 'Bonificación',
+      number: 'Si eres estudiante de la UCO tendrás:',
       list: [
-        { name: 'Matricula 50 €' },
-        { name: 'Cuota mantenimiento 40 € / mes' },
-        { name: 'Clase extra (alumno) 10 €/sesión' },
-        { name: 'Semana suelta 25 € / semana' },
-        { name: 'Dropin 15 €/sesión' },
-        { name: 'Cuota mantenimiento 40 € / mes' },
-        { name: 'Semana suelta 25 € / semana' },
-        { name: 'Bono 10 (anual) 100 € / bono' },
-        { name: 'Dropin 15 €/sesión' },
+        { name: 'una bonificación del 100% de la matrícula' },
+        { name: 'y 2 cuotas de mantenimiento gratuitas para tus periodos de exámenes.' },
+      
       ],
-      pay:'*Bonificaciones en matrícula al venir dos o más personas, descuentos a colectivos y a matrimonios.',
       delay: 1200,
     },
   ],

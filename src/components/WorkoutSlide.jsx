@@ -37,9 +37,9 @@ const WorkoutSlide = () => {
         className='max-w-[420px] max-h-[420px] relative'
         key={index}>
           <img className='w-full h-full object-cover' src={image} alt='image'/>
-          <div className='absolute left-[20px] bottom-[20px]
-             bg-white h-[26px] px-[14px] flex items-center rounded-[1px]'>
-            <div className='font-primary font-semibold text-sm text-neutral-500' >{name}</div>
+          <div className=' bg-red-100 relative group'>
+            <div className="opacity-0 group-hover:opacity-100 duration-300 absolute inset-x-0 bottom-5 flex justify-center items-end text-xl bg-gray-200 text-black font-semibold">{name}</div>
+             
           </div>
         </SwiperSlide>
         );
