@@ -2,10 +2,11 @@ import React from 'react'
 
 import { pricing } from '../constant/index'
 import PlanList from './PlanList';
+import PlanList1 from './PlanList1';
 
 const Pricing = () => {
   // destructure pricing data
-  const { icon, title, number, plans ,pay } = pricing;
+  const { icon, title, number, plans ,plans2, plans3, pay } = pricing;
   return (
     <section className='md:pb-[110px] lg:pb-[180px] lg:mt-[80px]'>
       <div className=' flex items-center justify-center -space-x-20 mb-[50px]
@@ -20,7 +21,10 @@ const Pricing = () => {
           <h3>{number}</h3>
       </div>
       <PlanList plans={plans}/>
-      <p>{pay}</p>
+      <div className='bg-[#575a5a]'>
+      <PlanList plans={plans2}/>
+      </div>
+      <PlanList1 plans={plans3}/>
     </section>
   )
 }

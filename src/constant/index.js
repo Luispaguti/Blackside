@@ -251,6 +251,15 @@ export const pricing = {
   title: 'Pricing plan',
   plans: [
     {
+      name: 'Functional',
+      price: '60',
+      number:'De lunes a viernes: ',
+      list: [
+        { name: 'Clases de entrenamiento funcional, ' },
+      ],
+      delay: 1300,
+    },
+    {
       name: 'Basic',
       price: '70',
       number:'9 clases al mes a elegir entre: ',
@@ -279,6 +288,11 @@ export const pricing = {
       ],
       delay: 800,
     },
+    
+   
+    
+  ],
+  plans2: [
     {
       name: 'Avanzado',
       price: '85',
@@ -310,15 +324,71 @@ export const pricing = {
       delay: 1200,
     },
     {
-      name: 'Functional',
-      price: '60',
-      number:'De lunes a viernes: ',
+      name: 'Otros',
+      price: '0',
       list: [
-        { name: 'Clases de entrenamiento funcional, ' },
+        { name: 'Matricula 50 €' },
+        { name: 'Cuota mantenimiento 40 € / mes' },
+        { name: 'Clase extra (alumno) 10 €/sesión' },
+        { name: 'Semana suelta 25 € / semana' },
+        { name: 'Dropin 15 €/sesión' },
+        { name: 'Cuota mantenimiento 40 € / mes' },
+        { name: 'Semana suelta 25 € / semana' },
+        { name: 'Bono 10 (anual) 100 € / bono' },
+        { name: 'Dropin 15 €/sesión' },
       ],
-      delay: 1300,
+      pay:'*Bonificaciones en matrícula al venir dos o más personas, descuentos a colectivos y a matrimonios.',
+      delay: 1200,
     },
-    
+  ],
+  plans3: [
+    {
+      name: 'Avanzado',
+      price: 'Ffcc',
+      number:'26 clases al mes a elegir entre: ',
+      list: [
+        { name: 'Fuerza y acondicionamiento anaeróbico, ' },
+        { name: 'Halterofilia,' },
+        { name: 'Tecnificación de halterofilia,' },
+        { name: 'Tecnificación de gimnásticos,' },
+        { name: 'Acondicionamiento aeróbico, ' },
+        { name: 'Acondicionamiento de fuerza,' }
+      ],
+      pay:'Formas de pago: 85 € mes / 240 € trimestre / 460 € semestre .',
+      delay: 1000,
+    },
+    {
+      name: 'ExtraAvanzado',
+      price: '95',
+      number:'48 clases al mes a elegir entre: ',
+      list: [
+        { name: 'Fuerza y acondicionamiento anaeróbico, ' },
+        { name: 'Halterofilia,' },
+        { name: 'Tecnificación de halterofilia,' },
+        { name: 'Tecnificación de gimnásticos,' },
+        { name: 'Acondicionamiento aeróbico, ' },
+        { name: 'Acondicionamiento de fuerza,' }
+      ],
+      pay:'Formas de pago: 95 € mes / 270 € trimestre / 540 € semestre .',
+      delay: 1200,
+    },
+    {
+      name: 'Otros',
+      price: '0',
+      list: [
+        { name: 'Matricula 50 €' },
+        { name: 'Cuota mantenimiento 40 € / mes' },
+        { name: 'Clase extra (alumno) 10 €/sesión' },
+        { name: 'Semana suelta 25 € / semana' },
+        { name: 'Dropin 15 €/sesión' },
+        { name: 'Cuota mantenimiento 40 € / mes' },
+        { name: 'Semana suelta 25 € / semana' },
+        { name: 'Bono 10 (anual) 100 € / bono' },
+        { name: 'Dropin 15 €/sesión' },
+      ],
+      pay:'*Bonificaciones en matrícula al venir dos o más personas, descuentos a colectivos y a matrimonios.',
+      delay: 1200,
+    },
   ],
 };
   

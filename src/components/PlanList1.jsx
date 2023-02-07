@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import { BsCheckCircleFill } from 'react-icons/bs';
 
-const PlanList = ({ plans }) => {
+const PlanList1 = ({ plans }) => {
 
   const [index, setIndex] = useState(0)
 
@@ -89,4 +89,4 @@ const PlanList = ({ plans }) => {
   )
 }
 
-export default PlanList
+export default PlanList1
