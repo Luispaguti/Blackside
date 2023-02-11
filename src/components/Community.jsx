@@ -8,7 +8,8 @@ const Community = () => {
   // destructure community data
   const { icon, title, testimonials } = community;
   return (
-    <section id='Comunidad' className='relative  pb-[80px] md:pb-[500px]   lg:pb-[377px] lg:pt-[150px] min-[320px]:mt-[100px] max-[600px]:mt-[100px] '>
+    <section id='Comunidad' className='relative pb-[80px] md:pb-[500px]  lg:pb-[377px] lg:pt-[10px] min-[320px]:mt-[100px] max-[600px]:mt-[100px] 
+    '>
       <div className='container mx-auto'>
         <div className='flex'>
           {/* section title */}
@@ -17,12 +18,12 @@ const Community = () => {
             <h2 
             className=' 
             text-[32px] leading-[40px] lg:text-[50px] lg:leading-[50px] font-ppopins flex -space-x-4'>
-              {title} <span >.</span>
+              {title} <span className='text-[#7DE7EB]'>.</span>
             </h2>
           </div>
           {/* slider */}
           <div
-          className='absolute -right-[375px] lg:-right-[0px] w-[1140px] top-48 '>
+          className='absolute -right-[375px] lg:-right-[0px] w-[1140px] lg:top-[150px] top-48 min-[320px]:-right-[0px] max-[600px]:-right-[0px]'>
              <CommunitySlider testimonials={testimonials} />
           </div>
         </div>

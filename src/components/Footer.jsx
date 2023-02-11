@@ -1,5 +1,5 @@
 import styles from '../style';
-import { logo } from '../assets/index'
+import { logo1 } from '../assets/index'
 import { footerLinks, socialMedia } from '../constant'
 
 
@@ -7,8 +7,9 @@ const footer = () => (
     <section className={`${styles.flexCenter} ${styles.paddingY} flex-col bg-black`}>
       <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
         <div className='flex-1 flex flex-col justify-start mr-10'>
-          <img src={logo} alt="hoobank" className='w-[266px] h-[72px] object-contain' />
-          <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <img src={logo1} alt="hoobank" className='w-[266px] h-[72px] object-contain' />
+          <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>Calle Decano Francisco Rojas Folgado S/N, 14006 Córdoba</p>
+          <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>717 77 12 22</p>        
         </div>
 
         <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
@@ -36,7 +37,7 @@ const footer = () => (
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
       <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
-        Copyright Ⓒ 2022 HooBank. All Rights Reserved.
+        Copyright Ⓒ 2023 BlackSide. All Rights Reserved.
       </p>
 
       <div className="flex flex-row md:mt-0 mt-6">

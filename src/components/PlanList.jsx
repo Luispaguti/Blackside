@@ -16,7 +16,7 @@ const PlanList = ({ plans }) => {
         return (
           <div
             onClick={() => setIndex(currentIndex)}
-            className='w-full md:max-w-[620px] lg:max-w-[405px]
+            className='w-full md:max-w-[620px] lg:max-w-[500px]
              rounded-sm px-4 lg:min-h-[550px] '
             key={currentIndex}
             data-aos='fade-up'

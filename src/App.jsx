@@ -24,7 +24,7 @@ const App = () => {
         <Faq/>
         <Join/>
         <Clients />
-        <CTA />
+        {/* <CTA /> */}
         <Footer />
     </div>
 )

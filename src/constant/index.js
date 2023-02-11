@@ -100,7 +100,7 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "https://www.hoobank.com/content/",
+        link: "https://www.marca.com/",
       },
       {
         name: "How it Works",
@@ -164,7 +164,7 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/blacksidebox/",
   },
   {
     id: "social-media-2",
@@ -249,7 +249,7 @@ export const work = {
 
 export const pricing = {
   icon: price,
-  title: 'Pricing plan',
+  title: 'Suscripciones',
   plans: [
     {
       name: 'Functional',
