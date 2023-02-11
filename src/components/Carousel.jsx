@@ -19,17 +19,7 @@ import {instalaciones1,
   instalaciones16,
   instalaciones17,
   instalaciones18,
-  instalaciones19,
-  instalaciones20,
-  instalaciones21,
-  instalaciones22,
-  instalaciones23,
-  instalaciones24,
-  instalaciones25,
-
-
-
-
+  instalaciones19
 } from '../assets/index'
 
 const Carousel = () => {
@@ -90,24 +80,6 @@ const Carousel = () => {
     },
     {
       img: instalaciones19,
-    },
-    {
-      img: instalaciones20,
-    },
-    {
-      img: instalaciones21,
-    },
-    {
-      img: instalaciones22,
-    },
-    {
-      img: instalaciones23,
-    },
-    {
-      img: instalaciones24,
-    },
-    {
-      img: instalaciones25,
     },
 
   ];

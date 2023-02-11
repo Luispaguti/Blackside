@@ -1,5 +1,5 @@
 
-import { meri, alex, Icncommunity,CommunityImg1, question, CommunityImg2,CommunityImg3,CommunityImg4, people02,box,calendar, press, strong, wood1, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, users , price , woman  } from "../assets";
+import { meri, alex, Icncommunity,CommunityImg1, question, CommunityImg2,CommunityImg3,CommunityImg4,CommunityImg5,CommunityImg6,CommunityImg7, CommunityImg8,CommunityImg9 , people02,box,calendar, press, strong, wood1, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, users , price , woman, wood2, wood4, wood3, wood5  } from "../assets";
 
 export const navLinks = [
 
@@ -233,17 +233,22 @@ export const work = {
       name: 'Yoga',
     },
     {
-      image: wood1,
-      name: 'Full Body',
-    },
-    {
-      image: wood1,
+      image: wood2,
       name: 'Fitness',
     },
     {
-      image: wood1,
+      image: wood3,
       name: 'Battle Rope',
     },
+    {
+      image: wood4,
+      name: 'Battle Rope',
+    },
+    {
+      image: wood5,
+      name: 'Battle Rope',
+    },
+
   ],
 };
 
@@ -418,6 +423,36 @@ export const community = {
     },
     {
       image: CommunityImg4,
+      name: 'Anne R.',
+      message:
+        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+    },
+    {
+      image: CommunityImg5,
+      name: 'Anne R.',
+      message:
+        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+    },
+    {
+      image: CommunityImg6,
+      name: 'Anne R.',
+      message:
+        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+    },
+    {
+      image: CommunityImg7,
+      name: 'Anne R.',
+      message:
+        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+    },
+    {
+      image: CommunityImg8,
+      name: 'Anne R.',
+      message:
+        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+    },
+    {
+      image: CommunityImg9,
       name: 'Anne R.',
       message:
         '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
