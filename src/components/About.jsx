@@ -16,7 +16,7 @@ const About = () => {
               data-aos='fade-down'
               data-aos-delay='500'
             >
-             <span className='text-[#C3C8C8] font-extrabold text-[50px]' > EN BLACKSIDE,</span>  <br></br> TE AYUDAMOS A MEJORAR <br /> DENTRO DEL GIMNASIO PARA <br /><span className='text-[#C3C8C8]'> QUE PUEDAS VIVIR <br /> PLENAMENTE FUERA DE EL </span>           
+             <span className='text-[#C3C8C8] font-extrabold text-[50px]' > EN BLACKSIDE,</span>  <br></br> TE AYUDAMOS A  <br />MEJORAR DENTRO <br /> DEL GIMNASIO PARA <br /><span className='text-[#C3C8C8]'> QUE PUEDAS VIVIR <br /> PLENAMENTE FUERA <br /> DE EL </span>           
             </h1>
             {/* <p
               className='font-poppins font-normal text-[16px] leading-[22px] max-w-[415px] text-body-md lg:text-body-lg mb-8 ml-11'

@@ -27,8 +27,8 @@ const PlanList = ({ plans }) => {
             <div className={`${currentIndex === index ?
               'bg-black text-white' :
               'bg-neutral-400/10  text-black'
-              } flex justify-center items-center py-[40px] px-[30px] lg:min-h-[550px] transition duration-100`}>
-                <div className='flex flex-row lg:flex-col gap-x-8 gap-y-8 lg:gap-x-0 items-center'>
+              }  py-[40px] px-[30px] lg:min-h-[550px] transition duration-100`}>
+                <div className='lg:flex-col gap-x-8 gap-y-8 lg:gap-x-0 items-center'>
               {/* name & price wrapper */}
               <div>
                 <div  className={`${
@@ -39,12 +39,11 @@ const PlanList = ({ plans }) => {
                     mx-auto px-[14px] flex items-center justify-center mb-8`} >
                       {name}
                     </div>
-                <div className='text-[40px] lg:text-[50px] font-primary font-extrabold text-center flex flex-col items-center justify-center'>
+                <div className='min-[320px]:text-[30px] max-[600px]:text-[30px] text-[40px] lg:text-[50px] font-primary font-extrabold'>
                   <div className='leading-none'>
-                    <span className='tracking-[0.1px]'>{price}</span>
-                    <span className='text-[30px] font-extrabold'>{dolar}</span>
+                    <span className='flex items-center justify-center tracking-[0.1px]'>{price}</span>
+                    <span className='flex items-center justify-center text-[30px] font-extrabold mb-8'>{dolar}{mes}</span>
                   </div>
-                  <span className='text-sm font-medium'>{mes}</span>
                 </div>
               </div>
               {/* list & btn wrapper */}

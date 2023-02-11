@@ -50,11 +50,67 @@ import CommunityImg4 from "./CommunityImg4.jpg";
 import question from "./question.svg";
 import bg from "./bg.svg";
 import woman from "./woman.png";
+import instalaciones1 from "./instalaciones (1).jpg";
+import instalaciones2 from "./instalaciones (2).jpg";
+import instalaciones3 from "./instalaciones (3).jpg";
+import instalaciones4 from "./instalaciones (4).jpg";
+import instalaciones5 from "./instalaciones (5).jpg";
+import instalaciones6 from "./instalaciones (6).jpg";
+import instalaciones7 from "./instalaciones (7).jpg";
+import instalaciones8 from "./instalaciones (8).jpg";
+import instalaciones9 from "./instalaciones (9).jpg";
+import instalaciones10 from "./instalaciones (10).jpg";
+import instalaciones11 from "./instalaciones (11).jpg";
+import instalaciones12 from "./instalaciones (12).jpg";
+import instalaciones13 from "./instalaciones (13).jpg";
+import instalaciones14 from "./instalaciones (14).jpg";
+import instalaciones15 from "./instalaciones (15).jpg";
+import instalaciones16 from "./instalaciones (16).jpg";
+import instalaciones17 from "./instalaciones (17).jpg";
+import instalaciones18 from "./instalaciones (18).jpg";
+import instalaciones19 from "./instalaciones (19).jpg";
+import instalaciones20 from "./instalaciones (20).jpg";
+import instalaciones21 from "./instalaciones (21).jpg";
+import instalaciones22 from "./instalaciones (22).jpg";
+import instalaciones23 from "./instalaciones (23).jpg";
+import instalaciones24 from "./instalaciones (24).jpg";
+import instalaciones25 from "./instalaciones (25).jpg";
+import alex from "./alex.jpg";
+import meri from "./meri.jpg";
+
+
 
 
 
 export {
   airbnb,
+alex,
+meri,
+instalaciones1,
+instalaciones2 ,
+instalaciones3 ,
+instalaciones4 ,
+instalaciones5 ,
+instalaciones6 ,
+instalaciones7 ,
+instalaciones8 ,
+instalaciones9 ,
+instalaciones10,
+instalaciones11 ,
+instalaciones12,
+instalaciones13 ,
+instalaciones14 ,
+instalaciones15 ,
+instalaciones16 ,
+instalaciones17 ,
+instalaciones18 ,
+instalaciones19 ,
+instalaciones20 ,
+instalaciones21 ,
+instalaciones22 ,
+instalaciones23 ,
+instalaciones24 ,
+instalaciones25 ,
   press,
   wood1,
   full,

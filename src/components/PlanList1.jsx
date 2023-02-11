@@ -8,7 +8,7 @@ const PlanList1 = ({ plans }) => {
 
   return (
     <div className='flex flex-col lg:flex-row items-center
-     justify-center max-w-[1280px] mx-auto gap-y-4' >
+     justify-center max-w-[1280px] mx-auto gap-y-4 ' >
       {plans.map((plan, currentIndex) => {
         //destructure plan
         const { name, type, price, list, number, delay, pay, pay2 } = plan;
@@ -27,8 +27,8 @@ const PlanList1 = ({ plans }) => {
             <div className={`${currentIndex === index ?
               'bg-black text-white' :
               'bg-neutral-400/10  text-black'
-              } flex justify-center items-center py-[40px] px-[30px] lg:min-h-[550px] transition duration-100`}>
-                <div className='flex flex-row lg:flex-col gap-x-8 gap-y-8 lg:gap-x-0 items-center'>
+              }  py-[40px] px-[30px] lg:min-h-[550px] transition duration-100`}>
+                <div className='lg:flex-col gap-x-8 gap-y-8 lg:gap-x-0 items-center'>
               {/* name & price wrapper */}
               <div>
                 <div  className={`${
@@ -36,12 +36,12 @@ const PlanList1 = ({ plans }) => {
                         ? 'bg-white text-black'
                         : 'bg-black text-white'
                     } h-[26px] font-primary text-sm font-semibold max-w-min 
-                    mx-auto px-[14px] flex items-center justify-center mb-8`} >
+                    mx-auto px-[14px] mb-8`} >
                       {type}
                     </div>
-                <div className='text-[40px] lg:text-[50px] font-primary font-extrabold text-center flex flex-col items-center justify-center'>
+                <div className='min-[320px]:text-[30px] max-[600px]:text-[30px] text-[40px] lg:text-[50px] font-primary font-extrabold mb-8'>
                   <div className='leading-none'>
-                    <span className='tracking-[0.1px]'>{name}</span>
+                    <span className='tracking-[0.1px] '>{name}</span>
                   </div>
                 </div>
               </div>
@@ -49,7 +49,7 @@ const PlanList1 = ({ plans }) => {
               <div>
                 {/* list */}
                 <ul className='flex flex-col gap-y-4 mb-8'>
-                <span className='text-md font-medium'>{number}</span>
+                <span className='text-md font-medium '>{number}</span>
                   {list.map((item,index)=> {
                     return (
                     <li className='flex items-center gap-x-[10px]' key={index}>

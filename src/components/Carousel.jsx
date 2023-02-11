@@ -1,25 +1,115 @@
 import React, { useState } from 'react';
 import { BsChevronCompactLeft,BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled, RxDot } from 'react-icons/rx'
+import {instalaciones1,
+  instalaciones2 ,
+  instalaciones3 ,
+  instalaciones4 ,
+  instalaciones5 ,
+  instalaciones6 ,
+  instalaciones7 ,
+  instalaciones8 ,
+  instalaciones9 ,
+  instalaciones10,
+  instalaciones11 ,
+  instalaciones12,
+  instalaciones13,
+  instalaciones14,
+  instalaciones15,
+  instalaciones16,
+  instalaciones17,
+  instalaciones18,
+  instalaciones19,
+  instalaciones20,
+  instalaciones21,
+  instalaciones22,
+  instalaciones23,
+  instalaciones24,
+  instalaciones25,
+
+
+
+
+} from '../assets/index'
 
 const Carousel = () => {
   const slides = [
     {
-      url: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80',
+      img: instalaciones1,
     },
     {
-      url: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80',
+      img: instalaciones2,
     },
     {
-      url: 'https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80',
+      img: instalaciones3,
+    },
+    {
+      img: instalaciones4,
+    },
+    {
+      img: instalaciones5,
+    },
+    {
+      img: instalaciones6,
+    },
+    {
+      img: instalaciones7,
+    },
+    {
+      img: instalaciones8,
+    },
+    {
+      img: instalaciones9,
+    },
+    {
+      img: instalaciones10,
+    },
+    {
+      img: instalaciones11,
+    },
+    {
+      img: instalaciones12,
+    },
+    {
+      img: instalaciones13,
+    },
+    {
+      img: instalaciones14,
+    },
+    {
+      img: instalaciones15,
+    },
+    {
+      img: instalaciones16,
+    },
+    {
+      img: instalaciones17,
+    },
+    {
+      img: instalaciones18,
+    },
+    {
+      img: instalaciones19,
+    },
+    {
+      img: instalaciones20,
+    },
+    {
+      img: instalaciones21,
+    },
+    {
+      img: instalaciones22,
+    },
+    {
+      img: instalaciones23,
+    },
+    {
+      img: instalaciones24,
+    },
+    {
+      img: instalaciones25,
     },
 
-    {
-      url: 'https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2253&q=80',
-    },
-    {
-      url: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80',
-    },
   ];
 
   const [currentIndex, setCurrentIndex]=useState(0)
@@ -41,11 +131,11 @@ const Carousel = () => {
   }
 
   return (
-    <section id='fotos' className='bg-black'>
- <div className='max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group max-sm:max-h-[400px] '>
+    <section id='Instalaciones' className='bg-black'>
+ <div className='flex justify-center max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group max-sm:max-h-[400px] '>
  {/* <div style={{ backgroundImage: `url(${slides[currentIndex].url})` }} className='w-full h-full rounded-2xl bg-center bg-cover duration-500 '></div> */}
  {/* Left Arrow*/}
- <img src={slides[currentIndex].url} alt="slide" className='w-full h-full rounded-2xl duration-500  ' />
+ <img src={slides[currentIndex].img} alt="slide" className='h-[100%] object-cover rounded-2xl duration-500 ' />
 <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
   <BsChevronCompactLeft onClick={prevSlide} size={30}/>
 </div>
@@ -53,14 +143,14 @@ const Carousel = () => {
  <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
   <BsChevronCompactRight onClick={nextSlide} size={30}/>
 </div>
-<div className='flex top-4 justify-center py-2'>
+{/* <div className='flex top-4 justify-center py-2'>
     {slides.map((slide,slideIndex) => (
       <div key={slideIndex} onClick={() => goToSlide(slideIndex)} 
       className='text-2xl cursor-pointer '>
         <RxDot color='white' />
       </div>
     ))}
-</div>
+</div> */}
  </div>
  </section>
   )

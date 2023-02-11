@@ -4,10 +4,10 @@ import WorkoutSlide from './WorkoutSlide'
 
 export const Workouts = () => {
   return (
-    <section >
+    <section id='entreno' >
       {/*Section title*/}
         <div className='flex items-center justify-center -space-x-20 mb-[50px] lg:mb-[80px] lg:mt-[80px] max-w-[540px]
-        mx-auto px-4 lg:px-0'
+        mx-auto px-4 lg:px-0 min-[320px]:mt-[100px] max-[600px]:mt-[100px]'
         // data-aos='fade-up'
         // data-aos-deLay="200"
         >

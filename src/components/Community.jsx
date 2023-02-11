@@ -8,7 +8,7 @@ const Community = () => {
   // destructure community data
   const { icon, title, testimonials } = community;
   return (
-    <section className='relative  pb-[80px] md:pb-[500px] sm:pb-[500px]  lg:pb-[377px] lg:pt-[150px]  '>
+    <section id='Comunidad' className='relative  pb-[80px] md:pb-[500px]   lg:pb-[377px] lg:pt-[150px] min-[320px]:mt-[100px] max-[600px]:mt-[100px] '>
       <div className='container mx-auto'>
         <div className='flex'>
           {/* section title */}

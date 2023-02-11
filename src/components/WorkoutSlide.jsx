@@ -38,7 +38,7 @@ const WorkoutSlide = () => {
         key={index}>
           <img className='w-full h-full object-cover' src={image} alt='image'/>
           <div className=' bg-red-100 relative group'>
-            <div className="opacity-0 group-hover:opacity-100 duration-300 absolute inset-x-0 bottom-5 flex justify-center items-end text-xl bg-gray-200 text-black font-semibold">{name}</div>
+          <div className="opacity-0 group-hover:opacity-100 duration-300 absolute inset-x-0 bottom-5 flex justify-center items-end text-xl bg-gray-200 text-black font-semibold">{name}</div>
              
           </div>
         </SwiperSlide>

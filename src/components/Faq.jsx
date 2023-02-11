@@ -9,7 +9,7 @@ const Faq = () => {
   const { icon, title, accordions } = faq
   return (
     <section className='bg-black lg:mt-[80px] lg:mb-0 md:pt-[80px] md:mb-0 
-    '>
+    min-[320px]:mt-[100px] max-[600px]:mt-[100px]'>
       <div className='max-w-[768px] mx-auto
       lg:bg-faq bg-no repeat bg-custom bg-center
       lg:h-[1300px] lg:pt-6'>

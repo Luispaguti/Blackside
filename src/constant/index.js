@@ -1,26 +1,27 @@
 
-import { people01,Icncommunity,CommunityImg1, question, CommunityImg2,CommunityImg3,CommunityImg4, people02,box,calendar, press, strong, wood1, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, users , price , woman  } from "../assets";
+import { meri, alex, Icncommunity,CommunityImg1, question, CommunityImg2,CommunityImg3,CommunityImg4, people02,box,calendar, press, strong, wood1, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, users , price , woman  } from "../assets";
 
 export const navLinks = [
+
   {
-    id: "home",
-    title: "Home",
+    id: "Instalaciones",
+    title: "Instalaciones",
+  },
+  {
+    id: "entreno",
+    title: "Entreno",
   },
   {
     id: "equipo",
     title: "Equipo",
   },
   {
-    id: "product",
-    title: "Entreno",
+    id: "Comunidad",
+    title: "Comunidad",
   },
   {
-    id: "clients",
-    title: "Instalaciones",
-  },
-  {
-    id: "fotos",
-    title: "Fotos",
+    id: "Suscripciones",
+    title: "Suscripciones",
   },
 ];
 
@@ -55,7 +56,7 @@ export const feedback = [
       "La actividad física es una necesidad básica en mi vida. Rendir en mis entrenamientos y en mi trabajo aumenta mi seguridad y confianza.",
     name: "Alejandro Práxedes",
     title: "Founder & Coach",
-    img: people01,
+    img: alex,
   },
   {
     id: "feedback-2",
@@ -63,7 +64,7 @@ export const feedback = [
       "Mi objetivo es mantenerme en forma y saludable para disfrutar el máximo tiempo posible con mi familia. ¿Cual es tu objetivo?",
     name: "Maria Gavilán",
     title: "Coach",
-    img: people02,
+    img: meri,
   },
   {
     id: "feedback-3",
@@ -488,8 +489,8 @@ export const faq = {
 
 export const join = {
   image: woman,
-  title: 'Wanna join & have fun?',
+  title: 'Quieres pasarlo bien & ponerte en forma?',
   subtitle:
-    'We’ll keep you updated on the things you need to know about Gymme. Nothing more, nothing less.',
-  btnText: 'Join now',
+    ' En BLACKSIDE,  TE AYUDAMOS A  MEJORAR DENTRO  DEL GIMNASIO PARA QUE PUEDAS VIVIR  PLENAMENTE FUERA DE EL ',
+  btnText: 'Unete',
 };
