@@ -22,18 +22,18 @@ const CommunitySlider = ({ testimonials }) => {
         return (
           <SwiperSlide key={idx}>
             <div className='relative '>
-              {/* image */}
+              {/* image  min-[320px]:w-[100px] */}
               <div>
-                <img src={image} alt='image' />
+                <img src={image} alt='image' className='lg:w-[1140px] min-[320px]:w-[300px] max-[600px]:w-[440px]' />
               </div>
               {/* message & name */}
-              <div className='absolute bottom-[30px] p-[20px] text-white text-center'>
-                <div className='mb-8 italic text-lg font-light'>{message}</div>
+              <div className='absolute bottom-[30px] p-[20px] text-white text-center '>
+                <div className='mb-8 italic lg:text-lg font-light  min-[320px]:text-[10px] min-[320px]:leading-[10px] '>{message}</div>
                 <div className='flex items-center justify-center gap-x-[3px]'>
                   <span className='text-[30px] text-primary-200 font-bold'>
                     ~
                   </span>
-                  <div className='text-[20px] font-bold'>{name}</div>
+                  <div className='lg:text-[20px] font-bold min-[320px]:text-[14px] '>{name}</div>
                 </div>
               </div>
             </div>

@@ -4,7 +4,7 @@ import { logo2 } from '../assets'
 function Home() {
   return (
     <section id="home" className='bg-white ' >
-      <div className='flex justify-center max-w-[1400px] h-[680px] w-full m-auto py-16 px-4 relative group max-sm:max-h-[400px]'>
+      <div className='flex justify-center max-w-[1400px] h-[680px] w-full m-auto py-16 px-4 relative group max-sm:max-h-[300px]'>
           <img src={logo2}
           className='max h-[100%]'
           alt="logo" data-aos='fade'

@@ -14,18 +14,18 @@ const Join = () => {
           {/* image */}
           <div
             className='-mt-[80px] max-w-[276px] md:max-w-[442px] lg:max-w-full'
-            data-aos='fade-right'
-            data-aos-offset='100'
-            data-aos-delay='200'
+            // data-aos='fade-right'
+            // data-aos-offset='100'
+            // data-aos-delay='200'
           >
             <img src={image} alt='' />
           </div>
           {/* text */}
           <div
             className='max-w-[350px] lg:max-w-[492px] ml-[30px]'
-            data-aos='fade-left'
-            data-aos-offset='100'
-            data-aos-delay='200'
+            // data-aos='fade-left'
+            // data-aos-offset='100'
+            // data-aos-delay='200'
           >
             <h2 className=' md:text-[60px] md:leading-[62px] text-white mb-4 lg:mb-6 min-[320px]:text-[30px] max-[600px]:text-[30px]'>
               ¿Quieres<span className='text-primary-200'></span> pasarlo bien & ponerte en forma?
