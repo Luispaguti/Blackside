@@ -37,7 +37,7 @@ const WorkoutSlide = () => {
         const { image, name, description} = program
         return (
         <SwiperSlide 
-        className='max-w-[620px] max-h-[300px] relative '
+        className='lg:max-w-[620px] lg:max-h-[300px] relative min-[320px]:max-w-[320px] min-[320px]:max-h-[170px]'
         key={index}>
           <img className='w-full h-full object-cover' src={image} alt='image'/>
           <div className='bg-gray-100 relative group  '>
