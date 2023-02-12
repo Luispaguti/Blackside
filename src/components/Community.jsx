@@ -8,12 +8,12 @@ const Community = () => {
   // destructure community data
   const { icon, title, testimonials } = community;
   return (
-    <section id='Comunidad' className='relative pb-[80px] md:pb-[500px]  lg:pb-[377px] lg:pt-[10px] min-[320px]:mt-[100px] max-[600px]:mt-[100px] 
+    <section id='Comunidad' className=' relative pb-[80px] md:pb-[500px]  lg:pb-[377px] lg:pt-[10px] min-[320px]:mt-[100px] max-[600px]:mt-[100px] 
     '>
       <div className='container mx-auto'>
         <div className='flex'>
           {/* section title */}
-          <div className='flex items-center justify-center -space-x-10 mb-[50px] lg:mb-[80px] max-w-[240px] px-4 lg:px-0 lg:ml-24 mx-auto' >
+          <div className='flex items-center justify-center -space-x-10 mb-[50px] lg:mb-[80px] max-w-[240px] px-4 lg:px-0 lg:ml-24 mx-auto ' >
             <img src={icon} alt="icon" />
             <h2 
             className=' 
@@ -23,7 +23,7 @@ const Community = () => {
           </div>
           {/* slider */}
           <div
-          className='absolute -right-[375px] lg:-right-[0px] w-[1140px] lg:top-[150px] top-48 min-[320px]:-right-[0px] max-[600px]:-right-[0px]'>
+          className='absolute  lg:-right-[0px] w-[1140px] lg:top-[150px] min-[320px]:inset-y-48  max-[600px]:-right-[0px]'>
              <CommunitySlider testimonials={testimonials} />
           </div>
         </div>

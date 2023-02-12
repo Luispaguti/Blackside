@@ -21,7 +21,7 @@ const CommunitySlider = ({ testimonials }) => {
         const { image, name, message } = testimonial;
         return (
           <SwiperSlide key={idx}>
-            <div className='relative'>
+            <div className='relative '>
               {/* image */}
               <div>
                 <img src={image} alt='image' />
