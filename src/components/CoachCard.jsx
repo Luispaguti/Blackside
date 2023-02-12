@@ -12,7 +12,7 @@ const CoachCard = ({ content, name, title, img }) => (
         </div>
       </div>
       <img src={quotes} alt="double_quotes" className='w-[22px] h-[17px] object-contain' />
-      <p className='font-poppins font-normal text-[18px] leading-[32px] text-white my-5'>{content}</p>
+      <p className='font-poppins font-normal text-[18px] leading-[32px] text-white my-5 '>{content}</p>
 
       
 

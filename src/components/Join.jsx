@@ -28,7 +28,7 @@ const Join = () => {
             data-aos-delay='200'
           >
             <h2 className=' md:text-[60px] md:leading-[62px] text-white mb-4 lg:mb-6 min-[320px]:text-[30px] max-[600px]:text-[30px]'>
-              Quieres<span className='text-primary-200'></span> pasarlo bien & ponerte en forma?
+              ¿Quieres<span className='text-primary-200'></span> pasarlo bien & ponerte en forma?
             </h2>
             <p className='md:text-[30px] md:leading-[32px] text-[#C3C8C8] font-bold mb-4 lg:mb-6 max-w-[348px] md:max-w-[470px] lg:max-w-[492px]'>
               {subtitle}

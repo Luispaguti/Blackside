@@ -19,7 +19,7 @@ export const Workouts = () => {
         </div>
         {/*slider*/}
         <div  data-aos='fade-up'
-        data-aos-deLay="300">
+        data-aos-deLay="300" className='mx-9'>
           <WorkoutSlide/>
         </div>
     </section>

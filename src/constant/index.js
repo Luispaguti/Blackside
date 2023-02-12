@@ -218,35 +218,39 @@ export const work = {
   programs: [
     {
       image: box,
-      name: 'Resistance',
+      name: 'Black Side Academy',
+      description: 'Aprenderás nuestro sistema de entrenamiento, compuesto por clases especializadas de fuerza y acondicionamiento anaeróbico (SC&METCON), tecnificación de halterofilia (OLYMPIC), tecnificación de gimnásticos (GYMNASTIC), acondicionamiento aeróbico (ENDURANCE) o acondicionamiento de fuerza (GRUNT). ',
     },
     {
       image: press,
-      name: 'Boxing',
+      name: 'Black Side Functional',
+      description: 'Incluye entrenamientos de HIIT y STRENGTH, con movimientos muy dinámicos dónde perderás grasa y tonificarás todo tu cuerpo. ',
     },
     {
       image: strong,
-      name: 'Body Pump',
+      name: 'Open',
+      description:'Trabajarás tus debilidades y contarás con el apoyo de tus donde podrás trabajar tus debilidades y contarás con el apoyo de tus entrenadores y con la planificación de AWAKEN de Marcus Filly, cuyo objetivo es alcanzar el equilibrio entre estar estéticamente fuerte y serlo, como bien dice él: “LOOK GOOD AND MOVE WELL”'
     },
     {
       image: wood1,
-      name: 'Yoga',
+      name: 'Preparación Física Oposiciones',
+      description:'Incluye sesiones específicas según la oposición para sacar la máxima puntuación y además estar preparado para el desempeño profesional posterior. Además, incluye consejos de nutrición y suplementación deportiva, así como asesoramiento para mejorar la recuperación entre sesiones.'
     },
     {
       image: wood2,
-      name: 'Fitness',
+      name: 'BJJ',
     },
     {
       image: wood3,
-      name: 'Battle Rope',
+      name: 'Nutrición',
     },
     {
       image: wood4,
-      name: 'Battle Rope',
+      name: 'Entrenamiento personal',
     },
     {
       image: wood5,
-      name: 'Battle Rope',
+      name: 'Preparación online',
     },
 
   ],
@@ -263,7 +267,7 @@ export const pricing = {
       mes:'/mes',
       number:'De lunes a viernes: ',
       list: [
-        { name: 'Clases de entrenamiento funcional, ' },
+        { name: 'Clases de entrenamiento funcional.' },
       ],
       delay: 1300,
     },
@@ -279,7 +283,7 @@ export const pricing = {
         { name: 'Tecnificación de halterofilia,' },
         { name: 'Tecnificación de gimnásticos,' },
         { name: 'Acondicionamiento aeróbico, ' },
-        { name: 'Acondicionamiento de fuerza,' }
+        { name: 'Acondicionamiento de fuerza.' }
       ],
       price: '70',
       delay: 600,
@@ -296,7 +300,7 @@ export const pricing = {
         { name: 'Tecnificación de halterofilia,' },
         { name: 'Tecnificación de gimnásticos,' },
         { name: 'Acondicionamiento aeróbico, ' },
-        { name: 'Acondicionamiento de fuerza,' }
+        { name: 'Acondicionamiento de fuerza.' }
       ],
       delay: 800,
     },
@@ -317,7 +321,7 @@ export const pricing = {
         { name: 'Tecnificación de halterofilia,' },
         { name: 'Tecnificación de gimnásticos,' },
         { name: 'Acondicionamiento aeróbico, ' },
-        { name: 'Acondicionamiento de fuerza,' }
+        { name: 'Acondicionamiento de fuerza.' }
       ],
       pay:'Formas de pago: 85 € mes / 240 € trimestre / 460 € semestre .',
       delay: 1000,
@@ -334,7 +338,7 @@ export const pricing = {
         { name: 'Tecnificación de halterofilia,' },
         { name: 'Tecnificación de gimnásticos,' },
         { name: 'Acondicionamiento aeróbico, ' },
-        { name: 'Acondicionamiento de fuerza,' }
+        { name: 'Acondicionamiento de fuerza.' }
       ],
       pay:'Formas de pago: 95 € mes / 270 € trimestre / 540 € semestre .',
       delay: 1200,
@@ -367,7 +371,7 @@ export const pricing = {
         { name: 'Bonificación extra del 5% si traes a un compañero (cuántos más traigas mayor bonificación).' },
       ],
       pay:'*No acumulable a otras promociones (pagos trimestrales/semestrales/promociones puntuales). En la segunda matrícula paga el 100%.',
-      pay2:'*Solo domiciliado',
+      pay2:'*Solo domiciliado.',
       delay: 1000,
     },
     {
@@ -381,7 +385,7 @@ export const pricing = {
         { name: 'BSFA: 38 usos compartidos por 160€ al mes.' },
       ],
       pay:'De este modo, además del ahorro, podréis compartir los usos para que el mes que uno no pueda o quiera venir tanto pueda aprovecharlo el otro.',
-      pay2:'*Solo domiciliado',
+      pay2:'*Solo domiciliado.',
       delay: 1000,
     },
     {
@@ -524,8 +528,8 @@ export const faq = {
 
 export const join = {
   image: woman,
-  title: 'Quieres pasarlo bien & ponerte en forma?',
+  title: '¿Quieres pasarlo bien & ponerte en forma?',
   subtitle:
-    ' En BLACKSIDE,  TE AYUDAMOS A  MEJORAR DENTRO  DEL GIMNASIO PARA QUE PUEDAS VIVIR  PLENAMENTE FUERA DE EL ',
-  btnText: 'Unete',
+    ' En BLACKSIDE,  TE AYUDAMOS A  MEJORAR DENTRO  DEL GIMNASIO PARA QUE PUEDAS VIVIR  PLENAMENTE FUERA DE ÉL .',
+  btnText: 'Únete',
 };

@@ -35,7 +35,7 @@ const PlanList1 = ({ plans }) => {
                       currentIndex === index
                         ? 'bg-white text-black'
                         : 'bg-black text-white'
-                    } h-[26px] font-primary text-sm font-semibold max-w-min 
+                    } h-[26px] font-poppins text-sm font-bold max-w-min 
                     mx-auto px-[14px] mb-8`} >
                       {type}
                     </div>
@@ -49,10 +49,10 @@ const PlanList1 = ({ plans }) => {
               <div>
                 {/* list */}
                 <ul className='flex flex-col gap-y-4 mb-8'>
-                <span className='text-md font-medium '>{number}</span>
+                <span className='text-md font-medium font-poppins'>{number}</span>
                   {list.map((item,index)=> {
                     return (
-                    <li className='flex items-center gap-x-[10px]' key={index}>
+                    <li className='flex items-center gap-x-[10px] font-poppins' key={index}>
                       <BsCheckCircleFill className='text-lg'/>
                       <div>{item.number}</div>
                       <div>{item.name}</div>
@@ -61,8 +61,8 @@ const PlanList1 = ({ plans }) => {
                       </li>
                       );
                   })}
-                  <span className='text-md font-medium'>{pay}</span>
-                  <span className='text-md font-medium'>{pay2}</span>
+                  <span className='text-md font-medium font-poppins'>{pay}</span>
+                  <span className='text-md font-medium font-poppins'>{pay2}</span>
                 </ul>
                 
                 {/*btn */}
