@@ -37,7 +37,7 @@ const CommunitySlider = ({ testimonials }) => {
             <div className='relative '>
               {/* image  min-[320px]:w-[100px] */}
               <div>
-                <img src={image} alt='image' className='max-h-[500px] lg:w-[1140px] ' />
+                <img src={image} alt='image' className='max-h-[560px] lg:w-[1140px] ' />
               </div>
               {/* message & name */}
               <div className='absolute bottom-[30px] p-[20px] text-white text-center '>
