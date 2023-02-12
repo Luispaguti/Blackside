@@ -19,7 +19,7 @@ const WorkoutSlide = () => {
     // grabCursor={true}
     breakpoints={{
       320: {
-        slidesPerView: 3,
+        slidesPerView: 2,
       },
       768: {
         slidesPerView: 3,
