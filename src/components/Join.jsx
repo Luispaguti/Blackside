@@ -7,13 +7,13 @@ const Join = () => {
   // destructure join data
   const { image, title, subtitle, btnText } = join;
   return (
-    <section className='bg-black min-h-[537px] lg:pt-[10px] min-[320px]:mt-[200px] max-[600px]:mt-[200px] min-[320px]:min-h-[53px] max-[600px]:min-h-[53px] '>
+    <section className='bg-black min-h-[537px] lg:mt-[200px] lg:pt-[10px] min-[320px]:mt-[200px] max-[600px]:mt-[200px] min-[320px]:min-h-[53px] max-[600px]:min-h-[53px] '>
       <div className='container mx-auto'>
         {/* image & text wrapper */}
         <div className='flex flex-col md:flex-row md:items-center md:-space-x-12 -space-y-24 lg:-space-y-0'>
           {/* image */}
           <div
-            className='-mt-[80px] max-w-[276px] md:max-w-[442px] lg:max-w-full'
+            className='mt-[80px] max-w-[276px] md:max-w-[442px] lg:max-w-full'
             // data-aos='fade-right'
             // data-aos-offset='100'
             // data-aos-delay='200'
