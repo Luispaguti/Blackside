@@ -8,7 +8,7 @@ const Pricing = () => {
   // destructure pricing data
   const { icon, title, number, plans ,plans2, plans3, pay } = pricing;
   return (
-    <section id='Suscripciones' className='md:pb-[110px] lg:pb-[180px] lg:mt-[150px] min-[320px]:mt-[200px] max-[600px]:mt-[500px] '>
+    <section id='Suscripciones' className='md:pb-[110px] lg:pb-[180px] lg:mt-[150px] min-[320px]:mt-[500px] max-[600px]:mt-[500px] '>
       <div className='flex items-center justify-center -space-x-20 mb-[50px]
        lg:mb-[80px] max-w-[540px] mx-auto px-4 lg:px-0'
        data-aos='fade-up'

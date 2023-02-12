@@ -23,7 +23,7 @@ const Community = () => {
           </div>
           {/* slider */}
           <div
-          className='absolute  lg:-right-[0px]  lg:w-[1140px] lg:top-[150px] min-[320px]:inset-y-48 min-[320px]:w-[440px]  min-[320px]:-right-[0px] max-[600px]:w-[440px]'>
+          className='absolute  lg:-right-[0px]  lg:w-[1140px] lg:top-[150px] min-[320px]:inset-y-48   min-[320px]:-right-[0px] max-[600px]:w-[400px]'>
              <CommunitySlider testimonials={testimonials} />
           </div>
         </div>

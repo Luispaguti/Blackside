@@ -9,7 +9,20 @@ import 'swiper/css/navigation';
 const CommunitySlider = ({ testimonials }) => {
   return (
     <Swiper
-      slidesPerView={3}
+    breakpoints={{
+      320: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 3,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
+      1724: {
+        slidesPerView: 5,
+      },
+    }}
       spaceBetween={32}
       centeredSlides={'auto'}
       grabCursor={true}
@@ -24,16 +37,16 @@ const CommunitySlider = ({ testimonials }) => {
             <div className='relative '>
               {/* image  min-[320px]:w-[100px] */}
               <div>
-                <img src={image} alt='image' className='lg:w-[1140px] min-[320px]:w-[300px] max-[600px]:w-[440px]' />
+                <img src={image} alt='image' className='max-h-[500px] lg:w-[1140px] ' />
               </div>
               {/* message & name */}
               <div className='absolute bottom-[30px] p-[20px] text-white text-center '>
-                <div className='mb-8 italic lg:text-lg font-light  min-[320px]:text-[10px] min-[320px]:leading-[10px] '>{message}</div>
+                <div className='mb-8 italic lg:text-lg font-light  min-[320px]:text-[20px] min-[320px]:leading-[20px] '>{message}</div>
                 <div className='flex items-center justify-center gap-x-[3px]'>
                   <span className='text-[30px] text-primary-200 font-bold'>
                     ~
                   </span>
-                  <div className='lg:text-[20px] font-bold min-[320px]:text-[14px] '>{name}</div>
+                  <div className='lg:text-[20px] font-bold min-[320px]:text-[24px] '>{name}</div>
                 </div>
               </div>
             </div>
