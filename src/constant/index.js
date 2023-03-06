@@ -1,5 +1,5 @@
 
-import { meri, alex, Icncommunity,CommunityImg1, question, CommunityImg2,CommunityImg3,CommunityImg4,CommunityImg5,CommunityImg6,CommunityImg7, CommunityImg8,CommunityImg9 , people02,box,calendar, press, strong, wood1, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, users , price , woman, wood2, wood4, wood3, wood5  } from "../assets";
+import { meri, alex, joaqui, Academy, Icncommunity,CommunityImg1, question, CommunityImg2,CommunityImg3,CommunityImg4,CommunityImg5,CommunityImg6,CommunityImg7, CommunityImg8,CommunityImg9 , people02,box,calendar, press, strong, wood1, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, users , price , woman, wood2, wood4, wood3, wood5, instalaciones7, instalaciones1, pista, comida  } from "../assets";
 
 export const navLinks = [
 
@@ -72,7 +72,7 @@ export const feedback = [
       "It is usually people in the money business, finance, and international trade that are really rich.",
     name: "Joaquin Doctor",
     title: "Founder Karasu BJJ",
-    img: people03,
+    img: joaqui,
   },
 ];
 
@@ -217,22 +217,22 @@ export const work = {
   title: 'Training programs',
   programs: [
     {
-      image: box,
+      image: Academy,
       name: 'Black Side Academy',
       description: 'Aprenderás nuestro sistema de entrenamiento, compuesto por clases especializadas de fuerza y acondicionamiento anaeróbico (SC&METCON), tecnificación de halterofilia (OLYMPIC), tecnificación de gimnásticos (GYMNASTIC), acondicionamiento aeróbico (ENDURANCE) o acondicionamiento de fuerza (GRUNT). ',
     },
     {
-      image: press,
+      image: instalaciones7,
       name: 'Black Side Functional',
       description: 'Incluye entrenamientos de HIIT y STRENGTH, con movimientos muy dinámicos dónde perderás grasa y tonificarás todo tu cuerpo. ',
     },
     {
-      image: strong,
+      image: instalaciones1,
       name: 'Open',
       description:'Trabajarás tus debilidades y contarás con el apoyo de tus donde podrás trabajar tus debilidades y contarás con el apoyo de tus entrenadores y con la planificación de AWAKEN de Marcus Filly, cuyo objetivo es alcanzar el equilibrio entre estar estéticamente fuerte y serlo, como bien dice él: “LOOK GOOD AND MOVE WELL”'
     },
     {
-      image: wood1,
+      image: pista,
       name: 'Preparación Física Oposiciones',
       description:'Incluye sesiones específicas según la oposición para sacar la máxima puntuación y además estar preparado para el desempeño profesional posterior. Además, incluye consejos de nutrición y suplementación deportiva, así como asesoramiento para mejorar la recuperación entre sesiones.'
     },
@@ -241,7 +241,7 @@ export const work = {
       name: 'BJJ',
     },
     {
-      image: wood3,
+      image: comida,
       name: 'Nutrición',
     },
     {

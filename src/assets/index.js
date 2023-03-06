@@ -80,6 +80,10 @@ import instalaciones18 from "./instalaciones (18).jpg";
 import instalaciones19 from "./instalaciones (19).jpg";
 import alex from "./alex.jpg";
 import meri from "./meri.jpg";
+import joaqui from "./joaqui.jpg";
+import Academy from "./Academy.jpg";
+import pista from "./pista.jpg";
+import comida from "./comida.jpg";
 
 
 
@@ -89,6 +93,10 @@ export {
   airbnb,
 alex,
 meri,
+joaqui,
+Academy,
+pista,
+comida,
 instalaciones1,
 instalaciones2 ,
 instalaciones3 ,
