@@ -196,10 +196,10 @@ export const clients = [
     id: "client-3",
     logo: coinbase,
   },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
+  // {
+  //   id: "client-4",
+  //   logo: dropbox,
+  // },
 ];
 
 export const about = {
@@ -236,22 +236,23 @@ export const work = {
       name: 'Preparación Física Oposiciones',
       description:'Incluye sesiones específicas según la oposición para sacar la máxima puntuación y además estar preparado para el desempeño profesional posterior. Además, incluye consejos de nutrición y suplementación deportiva, así como asesoramiento para mejorar la recuperación entre sesiones.'
     },
-    {
-      image: wood2,
-      name: 'BJJ',
-    },
+    // {
+    //   image: wood2,
+    //   name: 'BJJ',
+    // },
     {
       image: comida,
       name: 'Nutrición',
+      description:'BSA Ana Victoria: Dietista-Nutricionista (Col. AND-01294)',
     },
-    {
-      image: wood4,
-      name: 'Entrenamiento personal',
-    },
-    {
-      image: wood5,
-      name: 'Preparación online',
-    },
+    // {
+    //   image: wood4,
+    //   name: 'Entrenamiento personal',
+    // },
+    // {
+    //   image: wood5,
+    //   name: 'Preparación online',
+    // },
 
   ],
 };
