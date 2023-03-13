@@ -58,7 +58,7 @@ import CommunityImg8 from "./CommunityImg8.jpg";
 import CommunityImg9 from "./CommunityImg9.jpg";
 import question from "./question.svg";
 import bg from "./bg.svg";
-import woman from "./woman.png";
+import woman from "./woman.jpg";
 import instalaciones1 from "./instalaciones (1).jpg";
 import instalaciones2 from "./instalaciones (2).jpg";
 import instalaciones3 from "./instalaciones (3).jpg";
