@@ -3,7 +3,7 @@ import bill from "./bill.png";
 import binance from "./binance.jpg";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
-import dropbox from "./dropbox.png";
+import dropbox from "./dropbox.jpg";
 import logo from "./logo.svg";
 import logo1 from "./logo1.png";
 import logo2 from "./logo2.jpg";

@@ -69,7 +69,7 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "Con este deporte ganarás un gran estado físico, buenos hábitos de salud y desarrollarás una gran capacidad mental de resolución.",
     name: "Joaquin Doctor",
     title: "Founder Karasu BJJ",
     img: joaqui,
@@ -196,10 +196,10 @@ export const clients = [
     id: "client-3",
     logo: coinbase,
   },
-  // {
-  //   id: "client-4",
-  //   logo: dropbox,
-  // },
+  {
+    id: "client-4",
+    logo: dropbox,
+  },
 ];
 
 export const about = {
@@ -410,33 +410,33 @@ export const community = {
   testimonials: [
     {
       image: CommunityImg2,
-      name: 'Mark A.',
+      name: 'Fran',
       message:
-        '“Great location, great price and great, helpful people. What to want more?”',
+        '“Me encanta blackside poruqe tengo lo mejor de las clases colectivas y del entrenamiento personal.”',
     },
     {
       image: CommunityImg1,
-      name: 'Lauren K.',
+      name: 'Cris',
       message:
-        '“Gymme changed my life. Not only physically but mentally as well. I’m a better mother, and all around better human being because of this gym.”',
+        '“Desde que entreno functional blackside me siento con más energía que nunca.”',
     },
     {
       image: CommunityImg3,
-      name: 'Jhon D.',
+      name: 'Rafa',
       message:
-        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+        '“Si hubiera descubierto esto hace 10 años me hubiera ahorrado muchos dolores de espalda.”',
     },
     {
       image: CommunityImg4,
-      name: 'Anne R.',
+      name: 'Alberto y Guille',
       message:
-        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+        '“Nos encanta el ambiente que se respira en blackside”',
     },
     {
       image: CommunityImg5,
-      name: 'Anne R.',
+      name: 'Kike',
       message:
-        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+        '“Gracias a blackside mejoro cada día en todos los aspectos deportivos.”',
     },
     {
       image: CommunityImg6,
@@ -452,9 +452,9 @@ export const community = {
     },
     {
       image: CommunityImg8,
-      name: 'Anne R.',
+      name: 'Antonio.',
       message:
-        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+        '“Siempre están innovando, ofreciendo algo más para sus alumnos”',
     },
     {
       image: CommunityImg9,

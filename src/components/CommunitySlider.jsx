@@ -41,7 +41,7 @@ const CommunitySlider = ({ testimonials }) => {
               </div>
               {/* message & name */}
               <div className='absolute bottom-[30px] p-[20px] text-white text-center '>
-                <div className='mb-8 italic lg:text-lg font-light  min-[320px]:text-[20px] min-[320px]:leading-[20px] '>{message}</div>
+                <div className='mb-8 italic lg:text-lg font-semibold  min-[320px]:text-[20px] min-[320px]:leading-[20px] '>{message}</div>
                 <div className='flex items-center justify-center gap-x-[3px]'>
                   <span className='text-[30px] text-primary-200 font-bold'>
                     ~
