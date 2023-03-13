@@ -410,57 +410,57 @@ export const community = {
   testimonials: [
     {
       image: CommunityImg2,
-      name: 'Fran',
+      name: 'Ramiro',
       message:
         '“Me encanta blackside poruqe tengo lo mejor de las clases colectivas y del entrenamiento personal.”',
     },
     {
       image: CommunityImg1,
-      name: 'Cris',
+      name: 'Mamen',
       message:
         '“Desde que entreno functional blackside me siento con más energía que nunca.”',
     },
     {
       image: CommunityImg3,
-      name: 'Rafa',
+      name: 'Fran',
       message:
         '“Si hubiera descubierto esto hace 10 años me hubiera ahorrado muchos dolores de espalda.”',
     },
     {
       image: CommunityImg4,
-      name: 'Alberto y Guille',
+      name: 'Angel y Carlos',
       message:
         '“Nos encanta el ambiente que se respira en blackside”',
     },
     {
       image: CommunityImg5,
-      name: 'Kike',
+      name: 'Antonio',
       message:
         '“Gracias a blackside mejoro cada día en todos los aspectos deportivos.”',
     },
     {
       image: CommunityImg6,
-      name: 'Anne R.',
+      name: 'Vero',
       message:
-        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+        '“Llevaba un tiempo buscando una manera de hacer un deporte que me enganchase y me motivase al 100%… Gracias a Blackside he encontrado todo lo que necesitaba!”',
     },
     {
       image: CommunityImg7,
-      name: 'Anne R.',
+      name: 'Carmen',
       message:
-        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+        '“La mejor forma de hacer deporte! Dinámico, local super limpio y con profesores que siempre están pendientes de corregir y ayudar a los alumnos”',
     },
     {
       image: CommunityImg8,
-      name: 'Antonio.',
+      name: '',
       message:
         '“Siempre están innovando, ofreciendo algo más para sus alumnos”',
     },
     {
       image: CommunityImg9,
-      name: 'Anne R.',
+      name: '',
       message:
-        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+        '“¡Ama estos entrenamientos! Los entrenadores son geniales y motivadores. ¡Blackside es maravilloso!”',
     },
   ],
 };
