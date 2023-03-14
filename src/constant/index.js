@@ -452,13 +452,13 @@ export const community = {
     },
     {
       image: CommunityImg8,
-      name: '',
+      name: 'Vicente',
       message:
         '“Siempre están innovando, ofreciendo algo más para sus alumnos”',
     },
     {
       image: CommunityImg9,
-      name: '',
+      name: 'Vero',
       message:
         '“¡Ama estos entrenamientos! Los entrenadores son geniales y motivadores. ¡Blackside es maravilloso!”',
     },
