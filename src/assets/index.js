@@ -1,14 +1,11 @@
 import airbnb from "./airbnb.jpg";
-import bill from "./bill.png";
 import binance from "./binance.jpg";
-import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.jpg";
 import logo from "./logo.svg";
 import logo1 from "./logo1.png";
 import logo2 from "./logo2.jpg";
 import quotes from "./quotes.svg";
-import robot from "./robot.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -22,29 +19,11 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
-import people01 from "./people01.png";
-import people02 from "./people02.png";
 import people03 from "./people03.jpg";
 import prax from "./prax.jpg";
-import coach1 from "./coach1.png";
 import users from "./users.svg";
 import calendar from "./calendar.svg";
-import battle from "./battle.png";
-import body from "./body.png";
-import boxing from "./boxing.png";
-import fitness from "./fitness.png";
-import full from "./full.png";
-import resistance from "./resistance.png";
-import yoga from "./yoga.png";
-import left from "./left.svg";
-import box from "./box.png";
-import press from "./press.png";
-import strong from "./strong.png";
-import wood1 from "./wood1.png";
-import wood2 from "./wood2.png";
-import wood3 from "./wood3.png";
-import wood4 from "./wood4.png";
-import wood5 from "./wood5.png";
+import left from "./left.svg";;
 import price from "./price.svg";
 import Icncommunity from "./Icncommunity.svg";
 import CommunityImg1 from "./CommunityImg1.jpg";
@@ -116,13 +95,6 @@ instalaciones16 ,
 instalaciones17 ,
 instalaciones18 ,
 instalaciones19 ,
-  press,
-  wood1,
-  wood2,
-  wood3,
-  wood4,
-  wood5,
-  full,
   Icncommunity,
   CommunityImg1,
   CommunityImg2,
@@ -133,32 +105,21 @@ instalaciones19 ,
   CommunityImg7,
   CommunityImg8, 
   CommunityImg9, 
-  strong,
-  box,
-  resistance,
-  yoga,
   left,
-  boxing,
-  fitness,
-  bill,
   price,
-  body,
   calendar,
-  battle,
   users,
   prax,
   question,
   bg,
   woman,
   binance,
-  card,
   coinbase,
   dropbox,
   logo,
   logo1,
   logo2,
   quotes,
-  robot,
   send,
   shield,
   star,
@@ -172,8 +133,5 @@ instalaciones19 ,
   instagram,
   linkedin,
   twitter,
-  people01,
-  people02,
   people03,
-  coach1,
 };

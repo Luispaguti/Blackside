@@ -1,5 +1,5 @@
 
-import { meri, alex, joaqui, Academy, Icncommunity,CommunityImg1, question, CommunityImg2,CommunityImg3,CommunityImg4,CommunityImg5,CommunityImg6,CommunityImg7, CommunityImg8,CommunityImg9 , people02,box,calendar, press, strong, wood1, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, users , price , woman, wood2, wood4, wood3, wood5, instalaciones7, instalaciones1, pista, comida  } from "../assets";
+import { meri, alex, joaqui, Academy, Icncommunity,CommunityImg1, question, CommunityImg2,CommunityImg3,CommunityImg4,CommunityImg5,CommunityImg6,CommunityImg7, CommunityImg8,CommunityImg9 , facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, users , price , woman, instalaciones7, instalaciones1, pista, comida  } from "../assets";
 
 export const navLinks = [
 
@@ -412,7 +412,7 @@ export const community = {
       image: CommunityImg2,
       name: 'Ramiro',
       message:
-        '“Me encanta blackside poruqe tengo lo mejor de las clases colectivas y del entrenamiento personal.”',
+        '“Me encanta blackside porque tengo lo mejor de las clases colectivas y del entrenamiento personal.”',
     },
     {
       image: CommunityImg1,
