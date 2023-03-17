@@ -40,7 +40,7 @@ const CommunitySlider = ({ testimonials }) => {
                 <img src={image} alt='image' className='max-h-[560px] lg:w-[1140px] ' />
               </div>
               {/* message & name */}
-              <div className='absolute bottom-[30px] p-[20px] text-[white] text-center '>
+              <div className='absolute bottom-[30px] p-[20px] text-[white] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-center '>
                 <div className='mb-8 italic lg:text-lg font-semibold  min-[320px]:text-[20px] min-[320px]:leading-[20px] '>{message}</div>
                 <div className='flex items-center justify-center gap-x-[3px]'>
                   <span className='text-[30px] text-primary-200 font-bold'>
