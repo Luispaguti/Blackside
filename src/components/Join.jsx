@@ -14,7 +14,7 @@ const Join = () => {
           {/* image */}
           <div
             className='mt-[80px] max-w-[276px] md:max-w-[442px] lg:max-w-[550px]'
-            data-aos='fade-right'
+            data-aos='fade-down'
             data-aos-offset='100'
             data-aos-delay='200'
           >
@@ -23,7 +23,7 @@ const Join = () => {
           {/* text */}
           <div
             className='max-w-[350px] lg:max-w-[492px] ml-[30px]'
-            data-aos='fade-left'
+            data-aos='fade-up'
             data-aos-offset='100'
             data-aos-delay='200'
           >

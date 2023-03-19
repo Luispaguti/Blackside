@@ -29,7 +29,7 @@ const About = () => {
           {/* image */}
           
             <img  src={prax} alt="prax" className='w-full h-full pr-11  bg-banner bg-cover bg-right lg:bg-center bg-no-repeat flex-1 max-sm:max-h-[600px] rounded'
-            data-aos='fade-right'
+            data-aos='fade'
              />
           
         </div>

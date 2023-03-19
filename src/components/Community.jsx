@@ -18,7 +18,7 @@ const Community = () => {
             <h2 
             className=' 
             text-[32px] leading-[40px] lg:text-[50px] lg:leading-[50px] font-ppopins flex -space-x-4'
-            data-aos='fade-left'
+            data-aos='fade'
             data-aos-offset='100'
             data-aos-delay='200'>
               {title} <span className='text-[#7DE7EB]'>.</span>
