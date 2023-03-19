@@ -8,8 +8,7 @@ const App = () => {
 
   // aos initialization
   Aos.init({
-    duration: 2500,
-    delay: 400,
+    duration: 1200,
   });
   return (
     <div>

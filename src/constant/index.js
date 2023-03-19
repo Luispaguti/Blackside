@@ -224,12 +224,12 @@ export const work = {
     {
       image: instalaciones7,
       name: 'Black Side Functional',
-      description: 'Incluye entrenamientos de HIIT y STRENGTH, con movimientos muy dinámicos dónde perderás grasa y tonificarás todo tu cuerpo. ',
+      description: 'Incluye entrenamientos de HIT y STRENGTH, con movimientos muy dinámicos dónde perderás grasa y tonificarás todo tu cuerpo. ',
     },
     {
       image: instalaciones1,
       name: 'Open',
-      description:'Trabajarás tus debilidades y contarás con el apoyo de tus donde podrás trabajar tus debilidades y contarás con el apoyo de tus entrenadores y con la planificación de AWAKEN de Marcus Filly, cuyo objetivo es alcanzar el equilibrio entre estar estéticamente fuerte y serlo, como bien dice él: “LOOK GOOD AND MOVE WELL”'
+      description:'Donde podrás trabajar tus debilidades y contarás con el apoyo de tus entrenadores y con la planificación de AWAKEN de Marcus Filly, cuyo objetivo es alcanzar el equilibrio entre estar estéticamente fuerte y serlo, como bien dice él: “LOOK GOOD AND MOVE WELL”'
     },
     {
       image: pista,
@@ -264,18 +264,18 @@ export const pricing = {
     {
       name: 'Functional',
       price: '60',
-      dolar: '$',
+      dolar: '€',
       mes:'/mes',
       number:'De lunes a viernes: ',
       list: [
         { name: 'Clases de entrenamiento funcional.' },
       ],
-      delay: 1300,
+      delay: 300,
     },
     {
       name: 'Basic',
       price: '70',
-      dolar: '$',
+      dolar: '€',
       mes:'/mes',
       number:'9 clases al mes a elegir entre: ',
       list: [
@@ -287,12 +287,12 @@ export const pricing = {
         { name: 'Acondicionamiento de fuerza.' }
       ],
       price: '70',
-      delay: 600,
+      delay: 300,
     },
     {
       name: 'Medio',
       price: '80',
-      dolar: '$',
+      dolar: '€',
       mes:'/mes',
       number:'14 clases al mes a elegir entre: ',
       list: [
@@ -303,7 +303,7 @@ export const pricing = {
         { name: 'Acondicionamiento aeróbico, ' },
         { name: 'Acondicionamiento de fuerza.' }
       ],
-      delay: 800,
+      delay: 300,
     },
     
    
@@ -313,7 +313,7 @@ export const pricing = {
     {
       name: 'Avanzado',
       price: '85',
-      dolar: '$',
+      dolar: '€',
       mes:'/mes',
       number:'26 clases al mes a elegir entre: ',
       list: [
@@ -325,12 +325,12 @@ export const pricing = {
         { name: 'Acondicionamiento de fuerza.' }
       ],
       pay:'Formas de pago: 85 € mes / 240 € trimestre / 460 € semestre .',
-      delay: 1000,
+      delay: 300,
     },
     {
       name: 'ExtraAvanzado',
       price: '95',
-      dolar: '$',
+      dolar: '€',
       mes:'/mes',
       number:'48 clases al mes a elegir entre: ',
       list: [
@@ -342,7 +342,7 @@ export const pricing = {
         { name: 'Acondicionamiento de fuerza.' }
       ],
       pay:'Formas de pago: 95 € mes / 270 € trimestre / 540 € semestre .',
-      delay: 1200,
+      delay: 300,
     },
     {
       price: 'Otros',
@@ -350,15 +350,13 @@ export const pricing = {
         { name: 'Matricula 50 €' },
         { name: 'Cuota mantenimiento 40 € / mes' },
         { name: 'Clase extra (alumno) 10 €/sesión' },
-        { name: 'Semana suelta 25 € / semana' },
         { name: 'Dropin 15 €/sesión' },
-        { name: 'Cuota mantenimiento 40 € / mes' },
         { name: 'Semana suelta 25 € / semana' },
         { name: 'Bono 10 (anual) 100 € / bono' },
         { name: 'Dropin 15 €/sesión' },
       ],
       pay:'*Bonificaciones en matrícula al venir dos o más personas, descuentos a colectivos y a matrimonios.',
-      delay: 1200,
+      delay: 300,
     },
   ],
   plans3: [
@@ -373,7 +371,7 @@ export const pricing = {
       ],
       pay:'*No acumulable a otras promociones (pagos trimestrales/semestrales/promociones puntuales). En la segunda matrícula paga el 100%.',
       pay2:'*Solo domiciliado.',
-      delay: 1000,
+      delay: 300,
     },
     {
       type: 'Bonificación',
@@ -387,7 +385,7 @@ export const pricing = {
       ],
       pay:'De este modo, además del ahorro, podréis compartir los usos para que el mes que uno no pueda o quiera venir tanto pueda aprovecharlo el otro.',
       pay2:'*Solo domiciliado.',
-      delay: 1000,
+      delay: 300,
     },
     {
       name: 'ESTUDIANTES',
@@ -398,7 +396,7 @@ export const pricing = {
         { name: 'y 2 cuotas de mantenimiento gratuitas para tus periodos de exámenes.' },
       
       ],
-      delay: 1200,
+      delay: 300,
     },
   ],
 };

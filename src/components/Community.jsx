@@ -9,7 +9,7 @@ const Community = () => {
   const { icon, title, testimonials } = community;
   return (
     <section id='Comunidad' className=' relative pb-[80px] md:pb-[500px]  lg:pb-[377px] lg:pt-[10px] min-[320px]:mt-[100px] max-[600px]:mt-[100px] 
-    '>
+    ' >
       <div className='container mx-auto'>
         <div className='flex'>
           {/* section title */}
@@ -17,7 +17,10 @@ const Community = () => {
             <img src={icon} alt="icon" />
             <h2 
             className=' 
-            text-[32px] leading-[40px] lg:text-[50px] lg:leading-[50px] font-ppopins flex -space-x-4'>
+            text-[32px] leading-[40px] lg:text-[50px] lg:leading-[50px] font-ppopins flex -space-x-4'
+            data-aos='fade-left'
+            data-aos-offset='100'
+            data-aos-delay='200'>
               {title} <span className='text-[#7DE7EB]'>.</span>
             </h2>
           </div>

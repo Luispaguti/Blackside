@@ -8,7 +8,8 @@ function Home() {
           <img src={logo2}
           className='max h-[100%]'
           alt="logo" data-aos='fade'
-            data-aos-delay='800' />
+          data-aos-offset='100'
+          data-aos-delay='200' />
         {/* <div className='flex items-center justify-center'>
           <h3 className='font-primary text-[#7DE7EB] text-[32px]
            leading-[40px] lg:text-[50px] lg:leading-[50px] font-extrabold flex -space-x-4' 

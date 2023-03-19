@@ -8,7 +8,7 @@ const Coach = () => {
     <div/>
     <div className="flex flex-wrap sm:justify-evenly justify-center w-full feedback-container relative z-[1]"
     data-aos='fade-up'
-    data-aos-delay='1200'>
+   >
       {feedback.map((card) => <CoachCard key={card.id} {...card} />)}
     </div>
 

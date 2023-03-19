@@ -13,13 +13,16 @@ export const Workouts = () => {
         >
           <img src={calendar} alt="calendar" />
           <h2 className='font-poppins text-black text-[32px]
-           leading-[40px] lg:text-[50px] lg:leading-[50px] '>
+           leading-[40px] lg:text-[50px] lg:leading-[50px] '
+           data-aos='fade-left'
+           data-aos-offset='100'
+           data-aos-delay='200'>
              Programas de entrenamiento <span className='text-[#7DE7EB]'>.</span> </h2>
             
         </div>
         {/*slider*/}
         <div  data-aos='fade-up'
-        data-aos-deLay="300" className='mx-9'>
+         className='mx-9'>
           <WorkoutSlide/>
         </div>
     </section>

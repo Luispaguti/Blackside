@@ -14,7 +14,6 @@ const About = () => {
             <h1
               className='font-poppins font-semibold text-[50px] leading-[52px] text-black mb-8 ml-11 mt-8'
               data-aos='fade-down'
-              data-aos-delay='500'
             >
              <span className='text-[#C3C8C8] font-extrabold text-[50px]' > EN BLACKSIDE,</span>  <br></br> TE AYUDAMOS A  <br />MEJORAR DENTRO <br /> DEL GIMNASIO PARA <br /><span className='text-[#C3C8C8]'> QUE PUEDAS VIVIR <br /> PLENAMENTE FUERA <br /> DE EL </span>           
             </h1>
@@ -31,7 +30,7 @@ const About = () => {
           
             <img  src={prax} alt="prax" className='w-full h-full pr-11  bg-banner bg-cover bg-right lg:bg-center bg-no-repeat flex-1 max-sm:max-h-[600px] rounded'
             data-aos='fade-right'
-            data-aos-delay='900' />
+             />
           
         </div>
       </div>

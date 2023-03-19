@@ -19,7 +19,7 @@ const Faq = () => {
         '
         data-aos='fade-up'
           data-aos-offset='200'
-          data-aos-delay='200'>
+        >
           <img  src={icon} alt="icon" />
           <h2 className='text-[32px] text-black leading-[40px] lg:text-[50px] lg:leading-[50px] font-extrabold
           flex -space-x-4
@@ -30,7 +30,7 @@ const Faq = () => {
          <div className='flex flex-col gap-y-4 px-4'
          data-aos='fade-up'
          data-aos-offset='200'
-         data-aos-delay='200'>
+         >
           {accordions.map((accordion, idx) => {
             return <Accordion accordion={accordion} 
             key={idx}/>
